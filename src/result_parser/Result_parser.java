@@ -21,10 +21,10 @@ public class Result_parser {
     public static String experiment = "";
     public static String[][] data;
     public static String[][] sd;
-    public static int number_of_files = 5;
+    public static int number_of_files = 3;
     public static int file_number = 0;
     public static boolean starting_table = true;
-    public static String table = "cache%"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
+    public static String table = "time"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
 
     public static void main(String[] args) {
         try {
@@ -88,6 +88,13 @@ public class Result_parser {
                         }
                         double time = Double.parseDouble(strLine.substring(pos_start, pos_end));
                         data[x + current_thread][y + file_number] = String.valueOf(time);
+                        pos_start = strLine.indexOf("+-") + 4;
+                        pos_end = pos_start;
+                        while(strLine.charAt(pos_end)!=('%')){
+                            pos_end = pos_end+1;
+                        }
+                        float error = Float.parseFloat(strLine.substring(pos_start, pos_end).replaceAll(",",""));
+                        sd[x + current_thread][y + file_number] = String.valueOf(error);
                     }
                 }
                 if (table.equals("cache")) {
@@ -142,9 +149,11 @@ public class Result_parser {
             System.err.println("Error: " + e.getMessage());
         }
         try {
-            // Create file 
+            // Create file             
             FileWriter fstream = new FileWriter("out.csv");
             BufferedWriter out = new BufferedWriter(fstream);
+            /* Output for csv */
+            /*
             for (int i = 0; i < 3 * (threads + 3); i++) {
                 for (int j = 0; j < 50; j++) {
                     if (data[i][j] != null) {
@@ -161,6 +170,23 @@ public class Result_parser {
                 }
                 out.write("\n");
             }
+            */
+            /* Output for gnuplot*/
+            ///*
+            int file_output;
+            out.write("#nr_of_threads\ttime\terror\n");
+            for(int i=0;i<number_of_files;i++){
+                out.write("#"+data[1][i+1]+"\n");               
+                for(int j=1;j<threads+1;j++){
+                    out.write(data[j+1][0]);
+                    out.write("\t\t");
+                    out.write(data[j+1][i+1]);
+                    out.write("\t\t");
+                    out.write(sd[j+1][i+1]);
+                    out.write("\n");
+                }
+            }
+            //*/        
             //Close the output stream
             out.close();
         } catch (Exception e) {//Catch exception if any
