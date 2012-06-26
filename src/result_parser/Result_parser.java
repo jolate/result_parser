@@ -21,10 +21,10 @@ public class Result_parser {
     public static String experiment = "";
     public static String[][] data;
     public static String[][] sd;
-    public static int number_of_files = 3;
+    public static int number_of_files = 20;
     public static int file_number = 0;
     public static boolean starting_table = true;
-    public static String table = "time"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
+    public static String table = "cache%"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
 
     public static void main(String[] args) {
         try {
