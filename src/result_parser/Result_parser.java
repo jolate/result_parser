@@ -162,7 +162,6 @@ public class Result_parser {
              * Output for gnuplot
              */
             ///*
-            int file_output;
             double base_time;
             double out_time;
             out.write("#nr_of_threads\ttime\terror\n");
