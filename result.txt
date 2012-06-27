@@ -1,673 +1,757 @@
 
+Trying with 1 threads
 \n
 File ../benchmarks/anbul-dated-5-15-u.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m13.559s
-user	1m13.500s
-sys	0m0.049s
+real	1m13.756s
+user	1m13.674s
+sys	0m0.056s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/anbul-dated-5-15-u.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m13.933s
-user	2m27.040s
-sys	0m0.110s
+real	1m14.087s
+user	2m27.425s
+sys	0m0.112s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/anbul-dated-5-15-u.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m14.349s
-user	3m40.811s
-sys	0m0.152s
+real	1m14.551s
+user	3m41.453s
+sys	0m0.167s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/anbul-dated-5-15-u.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m14.758s
-user	4m54.624s
-sys	0m0.205s
+real	1m15.342s
+user	4m56.599s
+sys	0m0.220s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/anbul-part-10-15-s.cnf.gz with 1 threads:\n
 ==================================================
 
-real	9m59.397s
-user	9m59.143s
-sys	0m0.186s
+real	9m59.528s
+user	9m59.235s
+sys	0m0.190s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/anbul-part-10-15-s.cnf.gz with 2 threads:\n
 ==================================================
 
-real	10m3.201s
-user	20m2.105s
-sys	0m0.428s
+real	10m12.450s
+user	20m22.546s
+sys	0m0.478s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/anbul-part-10-15-s.cnf.gz with 3 threads:\n
 ==================================================
 
-real	10m4.134s
-user	30m1.666s
-sys	0m0.607s
+real	10m40.870s
+user	31m55.471s
+sys	0m0.656s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/anbul-part-10-15-s.cnf.gz with 4 threads:\n
 ==================================================
 
-real	10m4.932s
-user	40m5.381s
-sys	0m0.779s
+real	11m11.721s
+user	44m31.532s
+sys	0m1.018s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/fuhs-aprove-16.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m6.415s
-user	1m6.348s
-sys	0m0.026s
+real	1m6.573s
+user	1m6.534s
+sys	0m0.028s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/fuhs-aprove-16.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m6.438s
-user	2m12.562s
-sys	0m0.097s
+real	1m6.548s
+user	2m12.697s
+sys	0m0.101s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/fuhs-aprove-16.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m6.720s
-user	3m19.146s
-sys	0m0.147s
+real	1m6.841s
+user	3m19.684s
+sys	0m0.157s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/fuhs-aprove-16.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m6.873s
-user	4m25.633s
-sys	0m0.159s
+real	1m7.315s
+user	4m27.562s
+sys	0m0.173s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/goldb-heqc-alu4mul.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m21.027s
-user	1m20.962s
-sys	0m0.058s
+real	1m21.154s
+user	1m21.087s
+sys	0m0.052s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/goldb-heqc-alu4mul.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m21.072s
-user	2m41.967s
-sys	0m0.100s
+real	1m21.278s
+user	2m42.264s
+sys	0m0.096s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/goldb-heqc-alu4mul.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m21.356s
-user	4m3.504s
-sys	0m0.150s
+real	1m21.530s
+user	4m3.722s
+sys	0m0.167s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/goldb-heqc-alu4mul.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m21.678s
-user	5m24.783s
-sys	0m0.230s
+real	1m21.562s
+user	5m25.112s
+sys	0m0.251s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/goldb-heqc-i8mul.cnf.gz with 1 threads:\n
 ==================================================
 
-real	3m32.183s
-user	3m32.111s
-sys	0m0.031s
+real	3m32.493s
+user	3m32.426s
+sys	0m0.029s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/goldb-heqc-i8mul.cnf.gz with 2 threads:\n
 ==================================================
 
-real	3m33.740s
-user	7m6.462s
-sys	0m0.103s
+real	3m33.440s
+user	7m6.530s
+sys	0m0.106s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/goldb-heqc-i8mul.cnf.gz with 3 threads:\n
 ==================================================
 
-real	3m33.442s
-user	10m38.307s
-sys	0m0.139s
+real	3m35.247s
+user	10m44.779s
+sys	0m0.163s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/goldb-heqc-i8mul.cnf.gz with 4 threads:\n
 ==================================================
 
-real	3m33.496s
-user	14m10.397s
-sys	0m0.190s
+real	3m37.565s
+user	14m28.057s
+sys	0m0.230s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/grieu-vmpc-s05-27r.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m32.121s
-user	1m32.075s
-sys	0m0.033s
+real	1m32.134s
+user	1m32.091s
+sys	0m0.026s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/grieu-vmpc-s05-27r.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m32.216s
-user	3m4.226s
-sys	0m0.048s
+real	1m32.235s
+user	3m4.220s
+sys	0m0.058s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/grieu-vmpc-s05-27r.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m32.756s
-user	4m37.177s
-sys	0m0.092s
+real	1m32.500s
+user	4m36.920s
+sys	0m0.101s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/grieu-vmpc-s05-27r.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m32.761s
-user	6m9.589s
-sys	0m0.135s
+real	1m32.990s
+user	6m10.532s
+sys	0m0.136s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/ibm-2002-20r-k75.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m36.883s
-user	1m36.785s
-sys	0m0.077s
+real	1m36.805s
+user	1m36.719s
+sys	0m0.069s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/ibm-2002-20r-k75.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m37.093s
-user	3m13.278s
-sys	0m0.177s
+real	1m38.903s
+user	3m16.945s
+sys	0m0.167s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/ibm-2002-20r-k75.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m37.610s
-user	4m50.102s
-sys	0m0.256s
+real	1m42.235s
+user	5m4.120s
+sys	0m0.296s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/ibm-2002-20r-k75.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m38.036s
-user	6m27.168s
-sys	0m0.319s
+real	1m45.288s
+user	6m56.565s
+sys	0m0.371s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/ibm-2002-24r3-k100.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m52.168s
-user	1m52.088s
-sys	0m0.065s
+real	1m52.484s
+user	1m52.409s
+sys	0m0.053s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/ibm-2002-24r3-k100.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m52.430s
-user	3m44.065s
-sys	0m0.212s
+real	1m54.236s
+user	3m47.678s
+sys	0m0.153s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/ibm-2002-24r3-k100.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m53.013s
-user	5m36.729s
-sys	0m0.283s
+real	1m57.486s
+user	5m49.868s
+sys	0m0.270s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/ibm-2002-24r3-k100.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m53.172s
-user	7m28.771s
-sys	0m0.336s
+real	2m0.379s
+user	7m57.565s
+sys	0m0.424s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/ibm-2002-31_1r3-k30.cnf.gz with 1 threads:\n
 ==================================================
 
-real	0m51.864s
-user	0m51.801s
-sys	0m0.028s
+real	0m51.949s
+user	0m51.909s
+sys	0m0.033s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/ibm-2002-31_1r3-k30.cnf.gz with 2 threads:\n
 ==================================================
 
-real	0m52.075s
-user	1m43.675s
-sys	0m0.068s
+real	0m52.049s
+user	1m43.705s
+sys	0m0.072s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/ibm-2002-31_1r3-k30.cnf.gz with 3 threads:\n
 ==================================================
 
-real	0m52.164s
-user	2m35.596s
-sys	0m0.136s
+real	0m52.290s
+user	2m36.055s
+sys	0m0.134s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/ibm-2002-31_1r3-k30.cnf.gz with 4 threads:\n
 ==================================================
 
-real	0m52.294s
-user	3m27.352s
-sys	0m0.155s
+real	0m52.532s
+user	3m28.701s
+sys	0m0.178s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/ibm-2004-23-k80.cnf.gz with 1 threads:\n
 ==================================================
 
-real	3m5.803s
-user	3m5.632s
-sys	0m0.074s
+real	3m5.221s
+user	3m5.096s
+sys	0m0.090s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/ibm-2004-23-k80.cnf.gz with 2 threads:\n
 ==================================================
 
-real	3m5.476s
-user	6m10.011s
-sys	0m0.189s
+real	3m10.208s
+user	6m19.091s
+sys	0m0.174s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/ibm-2004-23-k80.cnf.gz with 3 threads:\n
 ==================================================
 
-real	3m6.212s
-user	9m15.149s
-sys	0m0.295s
+real	3m17.841s
+user	9m50.335s
+sys	0m0.338s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/ibm-2004-23-k80.cnf.gz with 4 threads:\n
 ==================================================
 
-real	3m7.116s
-user	12m21.212s
-sys	0m0.389s
+real	3m24.482s
+user	13m31.928s
+sys	0m0.481s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf with 1 threads:\n
 ==================================================
 
-real	0m24.003s
-user	0m23.939s
-sys	0m0.060s
+real	0m24.044s
+user	0m23.992s
+sys	0m0.050s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf with 2 threads:\n
 ==================================================
 
-real	0m24.166s
-user	0m47.896s
-sys	0m0.125s
+real	0m24.511s
+user	0m48.526s
+sys	0m0.116s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf with 3 threads:\n
 ==================================================
 
-real	0m24.335s
-user	1m11.924s
-sys	0m0.154s
+real	0m25.106s
+user	1m14.197s
+sys	0m0.213s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf with 4 threads:\n
 ==================================================
 
-real	0m24.514s
-user	1m35.872s
-sys	0m0.244s
+real	0m25.706s
+user	1m40.585s
+sys	0m0.320s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf.gz with 1 threads:\n
 ==================================================
 
-real	0m24.015s
-user	0m23.942s
-sys	0m0.061s
+real	0m24.065s
+user	0m24.017s
+sys	0m0.043s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf.gz with 2 threads:\n
 ==================================================
 
-real	0m24.176s
-user	0m47.901s
-sys	0m0.123s
+real	0m24.491s
+user	0m48.517s
+sys	0m0.128s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf.gz with 3 threads:\n
 ==================================================
 
-real	0m24.301s
-user	1m11.818s
-sys	0m0.164s
+real	0m25.106s
+user	1m14.103s
+sys	0m0.225s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/manol-pipe-c7idw.cnf.gz with 4 threads:\n
 ==================================================
 
-real	0m24.514s
-user	1m35.922s
-sys	0m0.226s
+real	0m25.669s
+user	1m40.443s
+sys	0m0.309s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/manol-pipe-g10bid_i.cnf.gz with 1 threads:\n
 ==================================================
 
-real	4m35.581s
-user	4m35.453s
-sys	0m0.100s
+real	4m36.083s
+user	4m35.941s
+sys	0m0.087s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/manol-pipe-g10bid_i.cnf.gz with 2 threads:\n
 ==================================================
 
-real	4m36.059s
-user	9m10.707s
-sys	0m0.256s
+real	4m40.911s
+user	9m20.300s
+sys	0m0.262s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/manol-pipe-g10bid_i.cnf.gz with 3 threads:\n
 ==================================================
 
-real	4m37.123s
-user	13m46.755s
-sys	0m0.385s
+real	4m49.248s
+user	14m23.977s
+sys	0m0.391s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/manol-pipe-g10bid_i.cnf.gz with 4 threads:\n
 ==================================================
 
-real	4m37.859s
-user	18m23.388s
-sys	0m0.434s
+real	4m58.332s
+user	19m45.645s
+sys	0m0.577s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/mizh-md5-47-4.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m19.276s
-user	1m19.212s
-sys	0m0.053s
+real	1m19.373s
+user	1m19.316s
+sys	0m0.046s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/mizh-md5-47-4.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m19.811s
-user	2m38.997s
-sys	0m0.096s
+real	1m19.896s
+user	2m39.148s
+sys	0m0.086s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/mizh-md5-47-4.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m20.029s
-user	3m58.668s
-sys	0m0.115s
+real	1m20.818s
+user	4m1.399s
+sys	0m0.110s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/mizh-md5-47-4.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m20.263s
-user	5m18.095s
-sys	0m0.138s
+real	1m22.170s
+user	5m26.348s
+sys	0m0.185s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/mizh-sha0-36-4.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m59.790s
-user	1m59.661s
-sys	0m0.103s
+real	2m0.130s
+user	1m59.987s
+sys	0m0.124s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/mizh-sha0-36-4.cnf.gz with 2 threads:\n
 ==================================================
 
-real	2m0.397s
-user	4m0.246s
-sys	0m0.243s
+real	2m0.493s
+user	4m0.420s
+sys	0m0.253s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/mizh-sha0-36-4.cnf.gz with 3 threads:\n
 ==================================================
 
-real	2m0.253s
-user	5m59.623s
-sys	0m0.307s
+real	2m1.325s
+user	6m2.605s
+sys	0m0.367s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/mizh-sha0-36-4.cnf.gz with 4 threads:\n
 ==================================================
 
-real	2m1.219s
-user	8m0.727s
-sys	0m0.380s
+real	2m2.391s
+user	8m6.617s
+sys	0m0.453s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/narai-vpn-10s.cnf.gz with 1 threads:\n
 ==================================================
 
-real	4m25.616s
-user	4m24.669s
-sys	0m0.914s
+real	4m21.302s
+user	4m20.349s
+sys	0m0.911s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/narai-vpn-10s.cnf.gz with 2 threads:\n
 ==================================================
 
-real	4m43.699s
-user	9m4.585s
-sys	0m1.719s
+real	4m46.986s
+user	9m10.214s
+sys	0m1.726s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/narai-vpn-10s.cnf.gz with 3 threads:\n
 ==================================================
 
-real	4m54.934s
-user	13m22.741s
-sys	0m2.424s
+real	5m15.742s
+user	14m33.412s
+sys	0m3.426s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/narai-vpn-10s.cnf.gz with 4 threads:\n
 ==================================================
 
-real	5m8.151s
-user	18m5.333s
-sys	0m3.382s
+real	5m36.110s
+user	20m8.098s
+sys	0m4.692s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/post-c32s-gcdm16-22.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m4.745s
-user	1m4.667s
-sys	0m0.067s
+real	1m4.947s
+user	1m4.882s
+sys	0m0.053s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/post-c32s-gcdm16-22.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m5.155s
-user	2m9.507s
-sys	0m0.148s
+real	1m5.624s
+user	2m10.482s
+sys	0m0.149s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/post-c32s-gcdm16-22.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m5.284s
-user	3m14.209s
-sys	0m0.222s
+real	1m6.407s
+user	3m17.565s
+sys	0m0.237s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/post-c32s-gcdm16-22.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m5.509s
-user	4m18.803s
-sys	0m0.284s
+real	1m7.041s
+user	4m25.280s
+sys	0m0.400s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/schup-l2s-motst-2-k315.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m7.666s
-user	1m7.435s
-sys	0m0.202s
+real	1m7.072s
+user	1m6.883s
+sys	0m0.175s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/schup-l2s-motst-2-k315.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m8.373s
-user	2m14.428s
-sys	0m0.419s
+real	1m10.731s
+user	2m18.904s
+sys	0m0.513s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/schup-l2s-motst-2-k315.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m9.228s
-user	3m22.147s
-sys	0m0.734s
+real	1m14.316s
+user	3m36.643s
+sys	0m0.845s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/schup-l2s-motst-2-k315.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m10.004s
-user	4m29.383s
-sys	0m0.886s
+real	1m18.487s
+user	5m2.783s
+sys	0m1.351s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/simon-s02b-r4b1k1.2.cnf.gz with 1 threads:\n
 ==================================================
 
-real	4m35.241s
-user	4m34.938s
-sys	0m0.273s
+real	4m36.615s
+user	4m36.294s
+sys	0m0.283s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/simon-s02b-r4b1k1.2.cnf.gz with 2 threads:\n
 ==================================================
 
-real	4m35.097s
-user	9m9.353s
-sys	0m0.547s
+real	4m36.725s
+user	9m12.123s
+sys	0m0.613s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/simon-s02b-r4b1k1.2.cnf.gz with 3 threads:\n
 ==================================================
 
-real	4m36.142s
-user	13m45.822s
-sys	0m0.876s
+real	4m37.702s
+user	13m50.640s
+sys	0m1.046s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/simon-s02b-r4b1k1.2.cnf.gz with 4 threads:\n
 ==================================================
 
-real	4m36.548s
-user	18m21.104s
-sys	0m1.212s
+real	4m40.568s
+user	18m38.593s
+sys	0m1.447s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/simon-s02-f2clk-50.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m26.682s
-user	1m26.608s
-sys	0m0.062s
+real	1m26.736s
+user	1m26.655s
+sys	0m0.069s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/simon-s02-f2clk-50.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m27.139s
-user	2m53.658s
-sys	0m0.165s
+real	1m27.105s
+user	2m53.786s
+sys	0m0.177s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/simon-s02-f2clk-50.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m27.012s
-user	4m19.926s
-sys	0m0.294s
+real	1m27.629s
+user	4m21.784s
+sys	0m0.287s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/simon-s02-f2clk-50.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m27.423s
-user	5m47.175s
-sys	0m0.351s
+real	1m28.376s
+user	5m51.765s
+sys	0m0.442s
 ==================================================
+Trying with 1 threads
 \n
 File ../benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz with 1 threads:\n
 ==================================================
 
-real	1m18.612s
-user	1m17.630s
-sys	0m0.939s
+real	1m16.557s
+user	1m15.650s
+sys	0m0.876s
 ==================================================
+Trying with 2 threads
 \n
 File ../benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz with 2 threads:\n
 ==================================================
 
-real	1m23.794s
-user	2m33.656s
-sys	0m1.988s
+real	1m24.828s
+user	2m35.412s
+sys	0m2.112s
 ==================================================
+Trying with 3 threads
 \n
 File ../benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz with 3 threads:\n
 ==================================================
 
-real	1m28.571s
-user	3m48.662s
-sys	0m3.294s
+real	1m32.569s
+user	4m1.428s
+sys	0m4.127s
 ==================================================
+Trying with 4 threads
 \n
 File ../benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz with 4 threads:\n
 ==================================================
 
-real	1m31.563s
-user	5m1.145s
-sys	0m4.616s
+real	1m38.992s
+user	5m31.794s
+sys	0m5.859s
 ==================================================

@@ -5,7 +5,7 @@
 package result_parser;
 
 import java.io.*;
-
+import java.text.*;
 /**
  *
  * @author jota
@@ -151,32 +151,59 @@ public class Result_parser {
             /*
              * Output for csv
              */
-            /*
+            ///*
+            double base_time;
+            double out_time;
+            for (int i = 0; i < 3 * (threads + 3); i++) {
+                if (i == 0) {
+                    for (int j = 0; j < 50; j++) {
+                        if (data[i][j] != null) {
+                            out.write(data[i][j] + "\t");
+                        }
+                    }
+                    //out.write("\n");
+                } else {
+                    for (int j = 0; j < 50; j++) {
+                        if (data[i][j] != null) {
+                            if (j == 0) {
+                                out.write(data[i][j] + "\t");
+                            } else {
+                                base_time = Double.parseDouble(data[1][j]);
+                                out_time = ((Double.parseDouble(data[i][j]) / base_time) * -100) + 100;
+                                DecimalFormat df = new DecimalFormat("#.#");                               
+                                out.write(df.format(out_time)+"\t");
+                                //out.write(data[i][j] + "\t");
+                            }
+                        }
+                    }
+                    //out.write("\n");
+                }
+                out.write("\n");
+            }/*
              * for (int i = 0; i < 3 * (threads + 3); i++) { for (int j = 0; j <
-             * 50; j++) { if (data[i][j] != null) { out.write(data[i][j] + " ;
-             * "); } } out.write("\n"); } for (int i = 0; i < 3 * (threads + 3);
-             * i++) { for (int j = 0; j < 50; j++) { if (sd[i][j] != null) {
-             * out.write(sd[i][j] + " ; "); } } out.write("\n"); }
+             * 50; j++) { if (sd[i][j] != null) { out.write(sd[i][j] + "\t"); }
+             * } out.write("\n"); }
              */
+            //*/
             /*
              * Output for gnuplot
              */
-            ///*
+            /*
             double base_time;
             double out_time;
             out.write("#nr_of_threads\ttime\terror\n");
             for (int i = 0; i < number_of_files; i++) {
                 out.write("#" + data[0][i + 1] + "\n");
-                base_time = Double.parseDouble(data[1][i+1]);
+                base_time = Double.parseDouble(data[1][i + 1]);
                 for (int j = 1; j < threads + 1; j++) {
-                    if (data[j][0] != null) {                      
+                    if (data[j][0] != null) {
                         out.write(data[j][0]);
                     } else {
                         out.write("null");
                     }
                     out.write("\t\t");
                     if (data[j][i + 1] != null) {
-                        out_time = ((Double.parseDouble(data[j][i+1])/base_time)*-100)+100;
+                        out_time = ((Double.parseDouble(data[j][i + 1]) / base_time) * -100) + 100;
                         out.write(String.valueOf(out_time));
                     } else {
                         out.write("null");
@@ -186,7 +213,7 @@ public class Result_parser {
                     out.write("\n");
                 }
             }
-            //*/        
+            */        
             //Close the output stream
             out.close();
         } catch (Exception e) {//Catch exception if any
