@@ -153,7 +153,7 @@ public class Result_parser {
             FileWriter fstream = new FileWriter("out.csv");
             BufferedWriter out = new BufferedWriter(fstream);
             /* Output for csv */
-            /*
+            ///*
             for (int i = 0; i < 3 * (threads + 3); i++) {
                 for (int j = 0; j < 50; j++) {
                     if (data[i][j] != null) {
@@ -170,11 +170,11 @@ public class Result_parser {
                 }
                 out.write("\n");
             }
-            */
+            //*/
             /* Output for gnuplot*/
-            ///*
+            /*
             int file_output;
-            out.write("#nr_of_threads\ttime\terror\n");
+            out.write("#nr_of_threads\tLLC-miss%\terror\n");
             for(int i=0;i<number_of_files;i++){
                 out.write("#"+data[1][i+1]+"\n");               
                 for(int j=1;j<threads+1;j++){
@@ -186,7 +186,7 @@ public class Result_parser {
                     out.write("\n");
                 }
             }
-            //*/        
+            */        
             //Close the output stream
             out.close();
         } catch (Exception e) {//Catch exception if any
