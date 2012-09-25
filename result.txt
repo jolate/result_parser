@@ -1,1561 +1,781 @@
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-dated-5-15-u.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/aaai10-planning-ipc5-pathways-13-step17.cnf -t 1' (5 runs):
 
-   196,413,616,986 L1-dcache-loads                                               ( +-  0.04% ) [71.44%]
-    17,886,854,717 L1-dcache-load-misses     #    9.11% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
-    11,533,855,562 LLC-loads                                                     ( +-  0.06% ) [57.16%]
-       291,087,430 LLC-load-misses           #    2.52% of all LL-cache hits     ( +-  1.38% ) [14.29%]
-   682,308,526,252 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.58%]
-    13,789,733,023 cache-references                                              ( +-  0.07% ) [42.87%]
-       329,338,857 cache-misses              #    2.388 % of all cache refs      ( +-  1.37% ) [57.15%]
+   322,804,261,164 L1-dcache-loads                                               ( +-  0.31% ) [71.44%]
+    12,746,873,589 L1-dcache-load-misses     #    3.95% of all L1-dcache hits    ( +-  0.32% ) [71.43%]
+     4,970,680,023 LLC-loads                                                     ( +-  0.35% ) [57.15%]
+       150,544,525 LLC-load-misses           #    3.03% of all LL-cache hits     ( +-  5.17% ) [14.29%]
+ 1,099,788,914,813 instructions              #    0.00  insns per cycle          ( +-  0.31% ) [28.58%]
+     5,411,024,229 cache-references                                              ( +-  0.36% ) [42.87%]
+       162,281,005 cache-misses              #    2.999 % of all cache refs      ( +-  5.25% ) [57.16%]
 
-     300.317049668 seconds time elapsed                                          ( +-  0.00% )
+     300.317779883 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-dated-5-15-u.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/aaai10-planning-ipc5-pathways-13-step17.cnf -t 2' (5 runs):
 
-   357,301,614,965 L1-dcache-loads                                               ( +-  3.22% ) [71.43%]
-    32,568,961,527 L1-dcache-load-misses     #    9.12% of all L1-dcache hits    ( +-  3.46% ) [71.43%]
-    20,435,928,184 LLC-loads                                                     ( +-  3.46% ) [57.15%]
-     1,080,506,826 LLC-load-misses           #    5.29% of all LL-cache hits     ( +-  7.69% ) [14.29%]
- 1,250,153,360,398 instructions              #    0.00  insns per cycle          ( +-  3.20% ) [28.58%]
-    25,142,209,836 cache-references                                              ( +-  3.39% ) [42.86%]
-     1,257,111,542 cache-misses              #    5.000 % of all cache refs      ( +-  7.33% ) [57.15%]
+   616,709,249,214 L1-dcache-loads                                               ( +-  0.04% ) [71.43%]
+    25,010,223,354 L1-dcache-load-misses     #    4.06% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    10,105,056,901 LLC-loads                                                     ( +-  0.07% ) [57.15%]
+       755,576,678 LLC-load-misses           #    7.48% of all LL-cache hits     ( +-  0.58% ) [14.29%]
+ 2,107,739,628,162 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.58%]
+    11,193,076,804 cache-references                                              ( +-  0.08% ) [42.86%]
+       801,061,743 cache-misses              #    7.157 % of all cache refs      ( +-  0.61% ) [57.15%]
 
-     284.365560986 seconds time elapsed                                          ( +-  3.47% )
+     300.343691408 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-dated-5-15-u.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/aaai10-planning-ipc5-pathways-13-step17.cnf -t 3' (5 runs):
 
-   421,097,134,031 L1-dcache-loads                                               ( +-  3.32% ) [71.43%]
-    40,466,515,870 L1-dcache-load-misses     #    9.61% of all L1-dcache hits    ( +-  3.50% ) [71.43%]
-    25,647,376,122 LLC-loads                                                     ( +-  3.57% ) [57.15%]
-     3,121,554,427 LLC-load-misses           #   12.17% of all LL-cache hits     ( +-  4.40% ) [14.29%]
- 1,473,201,588,402 instructions              #    0.00  insns per cycle          ( +-  3.30% ) [28.58%]
-    31,468,668,455 cache-references                                              ( +-  3.50% ) [42.86%]
-     3,638,325,509 cache-misses              #   11.562 % of all cache refs      ( +-  4.27% ) [57.15%]
+   893,155,761,940 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    35,650,294,500 L1-dcache-load-misses     #    3.99% of all L1-dcache hits    ( +-  0.01% ) [71.43%]
+    13,064,723,935 LLC-loads                                                     ( +-  0.02% ) [57.15%]
+     1,831,368,784 LLC-load-misses           #   14.02% of all LL-cache hits     ( +-  0.32% ) [14.29%]
+ 3,052,702,515,998 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    14,547,633,903 cache-references                                              ( +-  0.06% ) [42.86%]
+     1,958,941,883 cache-misses              #   13.466 % of all cache refs      ( +-  0.28% ) [57.15%]
 
-     263.347427743 seconds time elapsed                                          ( +-  3.53% )
+     300.403915534 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-dated-5-15-u.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/aaai10-planning-ipc5-pathways-13-step17.cnf -t 4' (5 runs):
 
-   528,484,962,206 L1-dcache-loads                                               ( +-  1.75% ) [71.43%]
-    49,888,704,821 L1-dcache-load-misses     #    9.44% of all L1-dcache hits    ( +-  2.10% ) [71.43%]
-    31,285,280,572 LLC-loads                                                     ( +-  2.22% ) [57.14%]
-     5,214,819,912 LLC-load-misses           #   16.67% of all LL-cache hits     ( +-  2.33% ) [14.29%]
- 1,852,616,943,718 instructions              #    0.00  insns per cycle          ( +-  1.75% ) [28.58%]
-    38,705,873,679 cache-references                                              ( +-  2.16% ) [42.86%]
-     6,274,562,788 cache-misses              #   16.211 % of all cache refs      ( +-  2.27% ) [57.15%]
+ 1,133,606,506,545 L1-dcache-loads                                               ( +-  0.04% ) [71.43%]
+    46,069,011,267 L1-dcache-load-misses     #    4.06% of all L1-dcache hits    ( +-  0.01% ) [71.43%]
+    16,705,469,755 LLC-loads                                                     ( +-  0.14% ) [57.14%]
+     3,586,874,855 LLC-load-misses           #   21.47% of all LL-cache hits     ( +-  0.30% ) [14.29%]
+ 3,871,515,328,027 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.58%]
+    18,639,929,148 cache-references                                              ( +-  0.09% ) [42.86%]
+     3,844,364,545 cache-misses              #   20.624 % of all cache refs      ( +-  0.23% ) [57.15%]
 
-     261.730516357 seconds time elapsed                                          ( +-  2.12% )
+     300.379295536 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-dated-5-15-u.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/aaai10-planning-ipc5-pathways-13-step17.cnf -t 5' (5 runs):
 
-   577,716,895,990 L1-dcache-loads                                               ( +-  5.26% ) [71.43%]
-    55,071,653,076 L1-dcache-load-misses     #    9.53% of all L1-dcache hits    ( +-  5.61% ) [71.43%]
-    34,614,023,128 LLC-loads                                                     ( +-  5.84% ) [57.15%]
-     8,301,913,233 LLC-load-misses           #   23.98% of all LL-cache hits     ( +-  7.25% ) [14.29%]
- 2,023,835,177,777 instructions              #    0.00  insns per cycle          ( +-  5.23% ) [28.58%]
-    42,727,194,397 cache-references                                              ( +-  5.71% ) [42.86%]
-    10,120,916,459 cache-misses              #   23.687 % of all cache refs      ( +-  7.09% ) [57.15%]
+ 1,347,821,057,711 L1-dcache-loads                                               ( +-  0.07% ) [71.43%]
+    54,531,060,514 L1-dcache-load-misses     #    4.05% of all L1-dcache hits    ( +-  0.07% ) [71.43%]
+    19,378,275,923 LLC-loads                                                     ( +-  0.08% ) [57.15%]
+     5,294,912,110 LLC-load-misses           #   27.32% of all LL-cache hits     ( +-  0.22% ) [14.29%]
+ 4,603,416,937,877 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.58%]
+    21,646,390,357 cache-references                                              ( +-  0.08% ) [42.86%]
+     5,715,880,994 cache-misses              #   26.406 % of all cache refs      ( +-  0.27% ) [57.15%]
 
-     261.833859614 seconds time elapsed                                          ( +-  6.05% )
+     300.327341536 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-dated-5-15-u.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/aaai10-planning-ipc5-pathways-13-step17.cnf -t 6' (5 runs):
 
-   678,043,500,610 L1-dcache-loads                                               ( +-  3.43% ) [71.45%]
-    65,339,556,498 L1-dcache-load-misses     #    9.64% of all L1-dcache hits    ( +-  3.66% ) [71.42%]
-    41,188,355,898 LLC-loads                                                     ( +-  3.86% ) [57.12%]
-    12,481,163,020 LLC-load-misses           #   30.30% of all LL-cache hits     ( +-  4.55% ) [14.30%]
- 2,371,460,241,866 instructions              #    0.00  insns per cycle          ( +-  3.40% ) [28.62%]
-    50,778,174,598 cache-references                                              ( +-  3.71% ) [42.91%]
-    15,413,354,523 cache-misses              #   30.354 % of all cache refs      ( +-  4.28% ) [57.18%]
+ 1,585,995,085,009 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    64,439,183,671 L1-dcache-load-misses     #    4.06% of all L1-dcache hits    ( +-  0.03% ) [71.42%]
+    23,266,224,020 LLC-loads                                                     ( +-  0.05% ) [57.14%]
+     7,927,982,255 LLC-load-misses           #   34.08% of all LL-cache hits     ( +-  0.14% ) [14.29%]
+ 5,412,132,994,239 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.60%]
+    25,938,749,181 cache-references                                              ( +-  0.06% ) [42.88%]
+     8,568,993,906 cache-misses              #   33.035 % of all cache refs      ( +-  0.18% ) [57.15%]
 
-     281.082979401 seconds time elapsed                                          ( +-  3.91% )
+     304.699888416 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-part-10-15-s.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/E02F22.cnf -t 1' (5 runs):
 
-   339,153,928,458 L1-dcache-loads                                               ( +-  0.07% ) [71.44%]
-    18,482,842,699 L1-dcache-load-misses     #    5.45% of all L1-dcache hits    ( +-  0.11% ) [71.43%]
-     4,644,771,882 LLC-loads                                                     ( +-  0.17% ) [57.15%]
-     1,014,123,693 LLC-load-misses           #   21.83% of all LL-cache hits     ( +-  0.19% ) [14.29%]
- 1,183,099,162,164 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.59%]
-     5,784,549,436 cache-references                                              ( +-  0.21% ) [42.87%]
-     1,382,973,480 cache-misses              #   23.908 % of all cache refs      ( +-  0.11% ) [57.15%]
+   184,222,015,502 L1-dcache-loads                                               ( +-  0.19% ) [71.44%]
+    10,442,031,413 L1-dcache-load-misses     #    5.67% of all L1-dcache hits    ( +-  0.22% ) [71.42%]
+     8,142,904,584 LLC-loads                                                     ( +-  0.26% ) [57.15%]
+     2,589,917,068 LLC-load-misses           #   31.81% of all LL-cache hits     ( +-  0.35% ) [14.30%]
+   614,945,919,672 instructions              #    0.00  insns per cycle          ( +-  0.15% ) [28.59%]
+     8,453,424,068 cache-references                                              ( +-  0.29% ) [42.88%]
+     2,623,905,648 cache-misses              #   31.040 % of all cache refs      ( +-  0.34% ) [57.16%]
 
-     300.331352034 seconds time elapsed                                          ( +-  0.00% )
+     300.340442417 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-part-10-15-s.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/E02F22.cnf -t 2' (5 runs):
 
-   576,192,681,469 L1-dcache-loads                                               ( +-  0.87% ) [71.43%]
-    31,845,214,393 L1-dcache-load-misses     #    5.53% of all L1-dcache hits    ( +-  0.82% ) [71.43%]
-     9,015,882,550 LLC-loads                                                     ( +-  0.46% ) [57.15%]
-     3,164,613,004 LLC-load-misses           #   35.10% of all LL-cache hits     ( +-  1.79% ) [14.29%]
- 2,013,295,411,236 instructions              #    0.00  insns per cycle          ( +-  0.90% ) [28.58%]
-    11,491,326,174 cache-references                                              ( +-  0.23% ) [42.87%]
-     4,392,752,371 cache-misses              #   38.227 % of all cache refs      ( +-  2.06% ) [57.15%]
+   341,312,015,281 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    19,151,034,365 L1-dcache-load-misses     #    5.61% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    14,812,086,140 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+     6,525,143,087 LLC-load-misses           #   44.05% of all LL-cache hits     ( +-  0.11% ) [14.29%]
+ 1,140,663,084,669 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    15,449,786,427 cache-references                                              ( +-  0.03% ) [42.86%]
+     6,632,841,522 cache-misses              #   42.932 % of all cache refs      ( +-  0.08% ) [57.15%]
 
-     300.347794083 seconds time elapsed                                          ( +-  0.00% )
+     300.367922538 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-part-10-15-s.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/E02F22.cnf -t 3' (5 runs):
 
-   774,414,813,999 L1-dcache-loads                                               ( +-  1.20% ) [71.43%]
-    42,315,117,736 L1-dcache-load-misses     #    5.46% of all L1-dcache hits    ( +-  1.02% ) [71.43%]
-    12,450,890,330 LLC-loads                                                     ( +-  0.55% ) [57.15%]
-     5,616,487,792 LLC-load-misses           #   45.11% of all LL-cache hits     ( +-  1.94% ) [14.29%]
- 2,710,643,961,757 instructions              #    0.00  insns per cycle          ( +-  1.29% ) [28.58%]
-    16,007,646,333 cache-references                                              ( +-  0.08% ) [42.86%]
-     7,827,040,159 cache-misses              #   48.896 % of all cache refs      ( +-  2.04% ) [57.15%]
+   504,434,163,220 L1-dcache-loads                                               ( +-  0.05% ) [71.43%]
+    26,230,297,329 L1-dcache-load-misses     #    5.20% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    19,858,606,035 LLC-loads                                                     ( +-  0.06% ) [57.14%]
+     9,637,279,003 LLC-load-misses           #   48.53% of all LL-cache hits     ( +-  0.04% ) [14.29%]
+ 1,684,520,888,773 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    20,800,444,168 cache-references                                              ( +-  0.05% ) [42.86%]
+     9,869,424,743 cache-misses              #   47.448 % of all cache refs      ( +-  0.06% ) [57.15%]
 
-     300.404266821 seconds time elapsed                                          ( +-  0.00% )
+     300.433336191 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-part-10-15-s.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/E02F22.cnf -t 4' (5 runs):
 
- 1,035,649,829,072 L1-dcache-loads                                               ( +-  0.56% ) [71.43%]
-    57,043,671,495 L1-dcache-load-misses     #    5.51% of all L1-dcache hits    ( +-  0.74% ) [71.43%]
-    15,288,946,568 LLC-loads                                                     ( +-  0.59% ) [57.15%]
-     7,565,866,078 LLC-load-misses           #   49.49% of all LL-cache hits     ( +-  0.83% ) [14.29%]
- 3,605,329,042,806 instructions              #    0.00  insns per cycle          ( +-  0.57% ) [28.58%]
-    19,700,532,819 cache-references                                              ( +-  0.54% ) [42.86%]
-    10,530,485,128 cache-misses              #   53.453 % of all cache refs      ( +-  0.92% ) [57.15%]
+   631,331,537,381 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    33,285,972,426 L1-dcache-load-misses     #    5.27% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    25,154,379,513 LLC-loads                                                     ( +-  0.05% ) [57.14%]
+    13,525,041,416 LLC-load-misses           #   53.77% of all LL-cache hits     ( +-  0.05% ) [14.29%]
+ 2,106,711,249,699 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    26,389,923,532 cache-references                                              ( +-  0.03% ) [42.86%]
+    13,874,911,248 cache-misses              #   52.577 % of all cache refs      ( +-  0.06% ) [57.15%]
 
-     300.381087220 seconds time elapsed                                          ( +-  0.00% )
+     300.414753174 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-part-10-15-s.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/E02F22.cnf -t 5' (5 runs):
 
- 1,069,826,940,893 L1-dcache-loads                                               ( +- 17.53% ) [71.43%]
-    59,441,214,206 L1-dcache-load-misses     #    5.56% of all L1-dcache hits    ( +- 17.63% ) [71.43%]
-    15,491,055,205 LLC-loads                                                     ( +- 15.10% ) [57.14%]
-     8,165,849,399 LLC-load-misses           #   52.71% of all LL-cache hits     ( +- 13.87% ) [14.29%]
- 3,714,513,687,729 instructions              #    0.00  insns per cycle          ( +- 17.46% ) [28.58%]
-    20,019,304,577 cache-references                                              ( +- 14.65% ) [42.86%]
-    11,368,250,642 cache-misses              #   56.786 % of all cache refs      ( +- 13.57% ) [57.15%]
+   766,648,295,816 L1-dcache-loads                                               ( +-  0.07% ) [71.43%]
+    38,804,094,654 L1-dcache-load-misses     #    5.06% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
+    29,092,124,688 LLC-loads                                                     ( +-  0.05% ) [57.14%]
+    16,879,829,039 LLC-load-misses           #   58.02% of all LL-cache hits     ( +-  0.04% ) [14.29%]
+ 2,559,678,838,946 instructions              #    0.00  insns per cycle          ( +-  0.09% ) [28.58%]
+    30,584,518,739 cache-references                                              ( +-  0.05% ) [42.86%]
+    17,344,569,731 cache-misses              #   56.710 % of all cache refs      ( +-  0.07% ) [57.15%]
 
-     259.548455879 seconds time elapsed                                          ( +- 15.71% )
+     300.371623345 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/anbul-part-10-15-s.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/E02F22.cnf -t 6' (5 runs):
 
- 1,463,931,406,388 L1-dcache-loads                                               ( +-  2.70% ) [71.41%]
-    81,229,326,771 L1-dcache-load-misses     #    5.55% of all L1-dcache hits    ( +-  2.59% ) [71.41%]
-    20,696,936,002 LLC-loads                                                     ( +-  2.94% ) [57.15%]
-    11,256,839,400 LLC-load-misses           #   54.39% of all LL-cache hits     ( +-  3.25% ) [14.30%]
- 5,073,910,118,934 instructions              #    0.00  insns per cycle          ( +-  2.75% ) [28.60%]
-    26,639,437,077 cache-references                                              ( +-  2.98% ) [42.87%]
-    15,622,279,844 cache-misses              #   58.643 % of all cache refs      ( +-  3.23% ) [57.13%]
+   883,267,718,484 L1-dcache-loads                                               ( +-  0.07% ) [71.43%]
+    45,285,713,179 L1-dcache-load-misses     #    5.13% of all L1-dcache hits    ( +-  0.04% ) [71.42%]
+    34,064,866,869 LLC-loads                                                     ( +-  0.05% ) [57.15%]
+    21,334,757,775 LLC-load-misses           #   62.63% of all LL-cache hits     ( +-  0.09% ) [14.29%]
+ 2,948,222,455,965 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.60%]
+    35,779,648,805 cache-references                                              ( +-  0.09% ) [42.88%]
+    21,971,780,078 cache-misses              #   61.409 % of all cache refs      ( +-  0.06% ) [57.16%]
 
-     296.309211549 seconds time elapsed                                          ( +-  2.86% )
+     304.648675334 seconds time elapsed                                          ( +-  0.01% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/fuhs-aprove-16.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/grid-strips-grid-y-3.035-NOTKNOWN.cnf -t 1' (5 runs):
 
-   285,124,038,489 L1-dcache-loads                                               ( +-  0.05% ) [71.44%]
-    16,547,116,798 L1-dcache-load-misses     #    5.80% of all L1-dcache hits    ( +-  0.05% ) [71.44%]
-     8,067,523,182 LLC-loads                                                     ( +-  0.09% ) [57.15%]
-       295,024,517 LLC-load-misses           #    3.66% of all LL-cache hits     ( +-  0.65% ) [14.29%]
- 1,052,872,299,292 instructions              #    0.00  insns per cycle          ( +-  0.08% ) [28.59%]
-     8,629,802,223 cache-references                                              ( +-  0.08% ) [42.87%]
-       344,576,263 cache-misses              #    3.993 % of all cache refs      ( +-  0.74% ) [57.15%]
+   423,042,209,364 L1-dcache-loads                                               ( +-  0.38% ) [71.44%]
+    26,163,567,081 L1-dcache-load-misses     #    6.18% of all L1-dcache hits    ( +-  0.29% ) [71.43%]
+    15,683,942,942 LLC-loads                                                     ( +-  0.21% ) [57.15%]
+        33,721,416 LLC-load-misses           #    0.22% of all LL-cache hits     ( +-  3.51% ) [14.29%]
+ 1,472,072,510,894 instructions              #    0.00  insns per cycle          ( +-  0.39% ) [28.59%]
+    15,829,914,487 cache-references                                              ( +-  0.22% ) [42.87%]
+        45,653,256 cache-misses              #    0.288 % of all cache refs      ( +-  1.17% ) [57.16%]
 
-     300.315827809 seconds time elapsed                                          ( +-  0.00% )
+     300.288655725 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/fuhs-aprove-16.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/grid-strips-grid-y-3.035-NOTKNOWN.cnf -t 2' (5 runs):
 
-   535,375,714,276 L1-dcache-loads                                               ( +-  0.92% ) [71.43%]
-    29,670,473,834 L1-dcache-load-misses     #    5.54% of all L1-dcache hits    ( +-  1.92% ) [71.43%]
-    15,279,931,380 LLC-loads                                                     ( +-  0.68% ) [57.14%]
-     1,263,969,060 LLC-load-misses           #    8.27% of all LL-cache hits     ( +-  4.41% ) [14.29%]
- 1,975,017,288,100 instructions              #    0.00  insns per cycle          ( +-  1.02% ) [28.58%]
-    16,473,998,258 cache-references                                              ( +-  0.67% ) [42.87%]
-     1,503,117,051 cache-misses              #    9.124 % of all cache refs      ( +-  4.52% ) [57.15%]
+   843,377,257,465 L1-dcache-loads                                               ( +-  0.11% ) [71.43%]
+    47,773,927,867 L1-dcache-load-misses     #    5.66% of all L1-dcache hits    ( +-  0.13% ) [71.43%]
+    27,681,475,740 LLC-loads                                                     ( +-  0.11% ) [57.15%]
+       128,523,307 LLC-load-misses           #    0.46% of all LL-cache hits     ( +-  1.39% ) [14.29%]
+ 2,967,454,221,297 instructions              #    0.00  insns per cycle          ( +-  0.11% ) [28.58%]
+    28,042,189,498 cache-references                                              ( +-  0.13% ) [42.86%]
+       162,830,365 cache-misses              #    0.581 % of all cache refs      ( +-  1.53% ) [57.15%]
 
-     300.333365216 seconds time elapsed                                          ( +-  0.00% )
+     300.329640166 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/fuhs-aprove-16.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/grid-strips-grid-y-3.035-NOTKNOWN.cnf -t 3' (5 runs):
 
-   561,393,040,473 L1-dcache-loads                                               ( +- 12.19% ) [71.43%]
-    29,415,350,285 L1-dcache-load-misses     #    5.24% of all L1-dcache hits    ( +-  7.33% ) [71.43%]
-    16,105,345,713 LLC-loads                                                     ( +-  5.05% ) [57.15%]
-     2,986,679,221 LLC-load-misses           #   18.54% of all LL-cache hits     ( +-  5.02% ) [14.29%]
- 1,979,236,393,593 instructions              #    0.00  insns per cycle          ( +- 12.64% ) [28.58%]
-    17,805,557,905 cache-references                                              ( +-  4.75% ) [42.86%]
-     3,382,636,828 cache-misses              #   18.998 % of all cache refs      ( +-  4.90% ) [57.15%]
+ 1,223,898,488,131 L1-dcache-loads                                               ( +-  0.01% ) [71.43%]
+    71,329,331,728 L1-dcache-load-misses     #    5.83% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    41,232,250,158 LLC-loads                                                     ( +-  0.07% ) [57.15%]
+       215,034,334 LLC-load-misses           #    0.52% of all LL-cache hits     ( +-  0.91% ) [14.29%]
+ 4,279,060,586,850 instructions              #    0.00  insns per cycle          ( +-  0.01% ) [28.58%]
+    41,740,837,664 cache-references                                              ( +-  0.06% ) [42.86%]
+       266,408,438 cache-misses              #    0.638 % of all cache refs      ( +-  0.47% ) [57.15%]
 
-     254.115934775 seconds time elapsed                                          ( +-  8.36% )
+     300.389939692 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/fuhs-aprove-16.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/grid-strips-grid-y-3.035-NOTKNOWN.cnf -t 4' (5 runs):
 
-   816,664,790,865 L1-dcache-loads                                               ( +- 10.70% ) [71.43%]
-    41,308,266,720 L1-dcache-load-misses     #    5.06% of all L1-dcache hits    ( +-  8.97% ) [71.42%]
-    22,071,207,772 LLC-loads                                                     ( +-  6.49% ) [57.14%]
-     5,043,743,512 LLC-load-misses           #   22.85% of all LL-cache hits     ( +-  8.29% ) [14.29%]
- 2,893,904,743,741 instructions              #    0.00  insns per cycle          ( +- 11.40% ) [28.58%]
-    24,432,523,920 cache-references                                              ( +-  6.16% ) [42.86%]
-     5,736,117,830 cache-misses              #   23.477 % of all cache refs      ( +-  7.88% ) [57.15%]
+ 1,613,599,910,989 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    92,165,173,293 L1-dcache-load-misses     #    5.71% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
+    52,117,248,981 LLC-loads                                                     ( +-  0.05% ) [57.14%]
+       382,211,060 LLC-load-misses           #    0.73% of all LL-cache hits     ( +-  2.06% ) [14.29%]
+ 5,652,208,212,477 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    52,796,271,042 cache-references                                              ( +-  0.06% ) [42.86%]
+       463,847,703 cache-misses              #    0.879 % of all cache refs      ( +-  1.61% ) [57.15%]
 
-     275.698137921 seconds time elapsed                                          ( +-  7.67% )
+     300.365368024 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/fuhs-aprove-16.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/grid-strips-grid-y-3.035-NOTKNOWN.cnf -t 5' (5 runs):
 
- 1,050,731,817,553 L1-dcache-loads                                               ( +-  2.58% ) [71.43%]
-    50,705,692,244 L1-dcache-load-misses     #    4.83% of all L1-dcache hits    ( +-  2.98% ) [71.43%]
-    26,021,083,639 LLC-loads                                                     ( +-  2.13% ) [57.15%]
-     8,052,350,184 LLC-load-misses           #   30.95% of all LL-cache hits     ( +-  3.86% ) [14.29%]
- 3,717,741,119,817 instructions              #    0.00  insns per cycle          ( +-  2.99% ) [28.58%]
-    28,841,105,066 cache-references                                              ( +-  2.07% ) [42.86%]
-     9,065,240,293 cache-misses              #   31.432 % of all cache refs      ( +-  3.47% ) [57.15%]
+ 1,934,218,864,860 L1-dcache-loads                                               ( +-  0.04% ) [71.43%]
+   115,996,639,104 L1-dcache-load-misses     #    6.00% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    68,183,566,403 LLC-loads                                                     ( +-  0.02% ) [57.15%]
+       521,086,337 LLC-load-misses           #    0.76% of all LL-cache hits     ( +-  2.94% ) [14.29%]
+ 6,741,611,242,699 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.58%]
+    68,916,405,960 cache-references                                              ( +-  0.03% ) [42.86%]
+       627,247,065 cache-misses              #    0.910 % of all cache refs      ( +-  2.48% ) [57.15%]
 
-     300.312999846 seconds time elapsed                                          ( +-  0.00% )
+     300.311126289 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/fuhs-aprove-16.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/grid-strips-grid-y-3.035-NOTKNOWN.cnf -t 6' (5 runs):
 
- 1,216,781,456,870 L1-dcache-loads                                               ( +-  2.16% ) [71.42%]
-    57,520,081,782 L1-dcache-load-misses     #    4.73% of all L1-dcache hits    ( +-  2.69% ) [71.42%]
-    30,065,988,081 LLC-loads                                                     ( +-  3.37% ) [57.15%]
-    11,312,577,774 LLC-load-misses           #   37.63% of all LL-cache hits     ( +-  3.94% ) [14.29%]
- 4,285,675,256,320 instructions              #    0.00  insns per cycle          ( +-  2.74% ) [28.60%]
-    33,322,544,963 cache-references                                              ( +-  3.04% ) [42.88%]
-    12,603,251,832 cache-misses              #   37.822 % of all cache refs      ( +-  3.46% ) [57.14%]
+ 2,341,842,747,968 L1-dcache-loads                                               ( +-  0.11% ) [71.42%]
+   141,225,723,508 L1-dcache-load-misses     #    6.03% of all L1-dcache hits    ( +-  0.10% ) [71.43%]
+    83,507,806,994 LLC-loads                                                     ( +-  0.05% ) [57.17%]
+       819,230,814 LLC-load-misses           #    0.98% of all LL-cache hits     ( +-  7.00% ) [14.28%]
+ 8,154,866,036,662 instructions              #    0.00  insns per cycle          ( +-  0.12% ) [28.58%]
+    84,325,019,779 cache-references                                              ( +-  0.05% ) [42.85%]
+       957,297,028 cache-misses              #    1.135 % of all cache refs      ( +-  5.96% ) [57.13%]
 
-     304.697370182 seconds time elapsed                                          ( +-  0.01% )
+     304.764435839 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-alu4mul.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k45-pdtvissoap1-tseitin.cnf -t 1' (5 runs):
 
-   231,076,404,490 L1-dcache-loads                                               ( +-  0.08% ) [71.44%]
-    12,395,733,708 L1-dcache-load-misses     #    5.36% of all L1-dcache hits    ( +-  0.09% ) [71.43%]
-     8,284,350,283 LLC-loads                                                     ( +-  0.13% ) [57.14%]
-       191,884,717 LLC-load-misses           #    2.32% of all LL-cache hits     ( +-  1.73% ) [14.29%]
-   780,628,634,584 instructions              #    0.00  insns per cycle          ( +-  0.08% ) [28.58%]
-     8,731,608,009 cache-references                                              ( +-  0.14% ) [42.88%]
-       199,908,154 cache-misses              #    2.289 % of all cache refs      ( +-  1.60% ) [57.16%]
+   209,966,356,985 L1-dcache-loads                                               ( +-  0.33% ) [71.44%]
+    12,776,653,931 L1-dcache-load-misses     #    6.09% of all L1-dcache hits    ( +-  0.33% ) [71.43%]
+     6,733,876,989 LLC-loads                                                     ( +-  0.27% ) [57.15%]
+     1,479,206,228 LLC-load-misses           #   21.97% of all LL-cache hits     ( +-  0.39% ) [14.29%]
+   742,879,118,960 instructions              #    0.00  insns per cycle          ( +-  0.32% ) [28.59%]
+     8,146,181,844 cache-references                                              ( +-  0.23% ) [42.87%]
+     1,769,467,533 cache-misses              #   21.721 % of all cache refs      ( +-  0.26% ) [57.16%]
 
-     300.305923759 seconds time elapsed                                          ( +-  0.00% )
+     300.325857941 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-alu4mul.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k45-pdtvissoap1-tseitin.cnf -t 2' (5 runs):
 
-   425,106,961,449 L1-dcache-loads                                               ( +-  0.94% ) [71.43%]
-    23,639,116,696 L1-dcache-load-misses     #    5.56% of all L1-dcache hits    ( +-  0.22% ) [71.43%]
-    15,520,591,951 LLC-loads                                                     ( +-  0.36% ) [57.15%]
-     1,390,174,048 LLC-load-misses           #    8.96% of all LL-cache hits     ( +-  1.78% ) [14.29%]
- 1,480,795,050,011 instructions              #    0.00  insns per cycle          ( +-  0.78% ) [28.58%]
-    16,523,539,840 cache-references                                              ( +-  0.32% ) [42.87%]
-     1,428,061,322 cache-misses              #    8.643 % of all cache refs      ( +-  1.87% ) [57.15%]
+   437,869,919,509 L1-dcache-loads                                               ( +-  0.06% ) [71.43%]
+    24,187,994,168 L1-dcache-load-misses     #    5.52% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    10,847,516,274 LLC-loads                                                     ( +-  0.04% ) [57.15%]
+     3,644,848,373 LLC-load-misses           #   33.60% of all LL-cache hits     ( +-  0.09% ) [14.29%]
+ 1,556,511,561,616 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.58%]
+    13,087,453,850 cache-references                                              ( +-  0.03% ) [42.86%]
+     4,389,810,372 cache-misses              #   33.542 % of all cache refs      ( +-  0.09% ) [57.15%]
 
-     300.337088419 seconds time elapsed                                          ( +-  0.00% )
+     300.341178755 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-alu4mul.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k45-pdtvissoap1-tseitin.cnf -t 3' (5 runs):
 
-   538,027,776,302 L1-dcache-loads                                               ( +-  0.34% ) [71.43%]
-    31,518,729,353 L1-dcache-load-misses     #    5.86% of all L1-dcache hits    ( +-  0.14% ) [71.43%]
-    21,342,553,057 LLC-loads                                                     ( +-  0.15% ) [57.15%]
-     4,615,126,987 LLC-load-misses           #   21.62% of all LL-cache hits     ( +-  0.76% ) [14.29%]
- 1,850,826,892,362 instructions              #    0.00  insns per cycle          ( +-  0.31% ) [28.58%]
-    22,682,488,850 cache-references                                              ( +-  0.17% ) [42.86%]
-     4,736,051,259 cache-misses              #   20.880 % of all cache refs      ( +-  0.65% ) [57.15%]
+   564,139,160,386 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    31,426,679,599 L1-dcache-load-misses     #    5.57% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    15,037,345,464 LLC-loads                                                     ( +-  0.02% ) [57.15%]
+     6,646,038,947 LLC-load-misses           #   44.20% of all LL-cache hits     ( +-  0.12% ) [14.29%]
+ 2,005,815,332,007 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    18,352,247,348 cache-references                                              ( +-  0.01% ) [42.86%]
+     8,049,068,325 cache-misses              #   43.859 % of all cache refs      ( +-  0.05% ) [57.15%]
 
-     300.393253009 seconds time elapsed                                          ( +-  0.00% )
+     300.397882976 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-alu4mul.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k45-pdtvissoap1-tseitin.cnf -t 4' (5 runs):
 
-   701,118,591,967 L1-dcache-loads                                               ( +-  0.99% ) [71.43%]
-    39,025,685,328 L1-dcache-load-misses     #    5.57% of all L1-dcache hits    ( +-  0.42% ) [71.43%]
-    26,191,441,653 LLC-loads                                                     ( +-  0.61% ) [57.15%]
-     7,350,705,017 LLC-load-misses           #   28.07% of all LL-cache hits     ( +-  0.62% ) [14.29%]
- 2,403,970,163,065 instructions              #    0.00  insns per cycle          ( +-  0.69% ) [28.58%]
-    27,987,460,533 cache-references                                              ( +-  0.56% ) [42.86%]
-     7,604,683,481 cache-misses              #   27.172 % of all cache refs      ( +-  0.68% ) [57.15%]
+   735,020,641,034 L1-dcache-loads                                               ( +-  0.04% ) [71.43%]
+    40,678,994,954 L1-dcache-load-misses     #    5.53% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    18,696,866,469 LLC-loads                                                     ( +-  0.03% ) [57.14%]
+     9,460,225,233 LLC-load-misses           #   50.60% of all LL-cache hits     ( +-  0.10% ) [14.29%]
+ 2,611,170,251,004 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.58%]
+    22,743,888,020 cache-references                                              ( +-  0.05% ) [42.86%]
+    11,428,696,771 cache-misses              #   50.250 % of all cache refs      ( +-  0.07% ) [57.15%]
 
-     300.368402877 seconds time elapsed                                          ( +-  0.00% )
+     300.370136089 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-alu4mul.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k45-pdtvissoap1-tseitin.cnf -t 5' (5 runs):
 
-   786,513,438,324 L1-dcache-loads                                               ( +-  0.73% ) [71.43%]
-    44,313,572,943 L1-dcache-load-misses     #    5.63% of all L1-dcache hits    ( +-  0.29% ) [71.43%]
-    29,990,853,703 LLC-loads                                                     ( +-  0.39% ) [57.14%]
-    10,817,781,429 LLC-load-misses           #   36.07% of all LL-cache hits     ( +-  0.34% ) [14.29%]
- 2,687,902,932,230 instructions              #    0.00  insns per cycle          ( +-  0.59% ) [28.58%]
-    32,037,111,676 cache-references                                              ( +-  0.41% ) [42.86%]
-    11,239,239,472 cache-misses              #   35.082 % of all cache refs      ( +-  0.35% ) [57.15%]
+   840,961,299,622 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    48,667,069,197 L1-dcache-load-misses     #    5.79% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    23,456,990,643 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+    12,882,787,136 LLC-load-misses           #   54.92% of all LL-cache hits     ( +-  0.05% ) [14.29%]
+ 2,988,854,092,950 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    28,492,414,893 cache-references                                              ( +-  0.02% ) [42.86%]
+    15,553,587,842 cache-misses              #   54.589 % of all cache refs      ( +-  0.03% ) [57.15%]
 
-     300.318374776 seconds time elapsed                                          ( +-  0.00% )
+     300.317686993 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-alu4mul.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k45-pdtvissoap1-tseitin.cnf -t 6' (5 runs):
 
-   902,315,070,020 L1-dcache-loads                                               ( +-  0.56% ) [71.42%]
-    50,891,099,361 L1-dcache-load-misses     #    5.64% of all L1-dcache hits    ( +-  0.47% ) [71.42%]
-    34,562,407,917 LLC-loads                                                     ( +-  0.46% ) [57.15%]
-    14,929,438,216 LLC-load-misses           #   43.20% of all LL-cache hits     ( +-  0.09% ) [14.29%]
- 3,076,367,335,004 instructions              #    0.00  insns per cycle          ( +-  0.40% ) [28.59%]
-    36,906,145,193 cache-references                                              ( +-  0.47% ) [42.87%]
-    15,570,934,348 cache-misses              #   42.191 % of all cache refs      ( +-  0.09% ) [57.14%]
+   968,093,149,004 L1-dcache-loads                                               ( +-  0.02% ) [71.44%]
+    56,224,877,486 L1-dcache-load-misses     #    5.81% of all L1-dcache hits    ( +-  0.01% ) [71.43%]
+    27,573,636,786 LLC-loads                                                     ( +-  0.03% ) [57.14%]
+    16,401,830,141 LLC-load-misses           #   59.48% of all LL-cache hits     ( +-  0.04% ) [14.29%]
+ 3,435,960,604,563 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.60%]
+    33,651,149,691 cache-references                                              ( +-  0.02% ) [42.89%]
+    19,854,328,794 cache-misses              #   59.000 % of all cache refs      ( +-  0.03% ) [57.17%]
 
-     304.740962278 seconds time elapsed                                          ( +-  0.00% )
+     304.623241746 seconds time elapsed                                          ( +-  0.01% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-i8mul.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k50-pdtpmsns2-tseitin.cnf -t 1' (5 runs):
 
-   335,339,621,849 L1-dcache-loads                                               ( +-  0.16% ) [71.44%]
-    19,218,443,944 L1-dcache-load-misses     #    5.73% of all L1-dcache hits    ( +-  0.12% ) [71.43%]
-     4,797,339,168 LLC-loads                                                     ( +-  0.21% ) [57.14%]
-       174,764,374 LLC-load-misses           #    3.64% of all LL-cache hits     ( +-  3.60% ) [14.29%]
- 1,131,095,607,347 instructions              #    0.00  insns per cycle          ( +-  0.18% ) [28.58%]
-     5,340,154,710 cache-references                                              ( +-  0.05% ) [42.88%]
-       184,003,660 cache-misses              #    3.446 % of all cache refs      ( +-  3.21% ) [57.16%]
+   236,125,249,854 L1-dcache-loads                                               ( +-  0.31% ) [71.44%]
+    14,316,337,527 L1-dcache-load-misses     #    6.06% of all L1-dcache hits    ( +-  0.29% ) [71.43%]
+     7,196,492,669 LLC-loads                                                     ( +-  0.25% ) [57.16%]
+       924,747,480 LLC-load-misses           #   12.85% of all LL-cache hits     ( +-  0.30% ) [14.29%]
+   831,734,357,908 instructions              #    0.00  insns per cycle          ( +-  0.27% ) [28.58%]
+     8,515,357,359 cache-references                                              ( +-  0.25% ) [42.87%]
+     1,078,810,512 cache-misses              #   12.669 % of all cache refs      ( +-  0.35% ) [57.15%]
 
-     300.314491887 seconds time elapsed                                          ( +-  0.00% )
+     300.323729772 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-i8mul.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k50-pdtpmsns2-tseitin.cnf -t 2' (5 runs):
 
-   585,090,800,590 L1-dcache-loads                                               ( +-  0.63% ) [71.43%]
-    34,364,157,560 L1-dcache-load-misses     #    5.87% of all L1-dcache hits    ( +-  0.72% ) [71.43%]
-    10,623,968,130 LLC-loads                                                     ( +-  1.07% ) [57.15%]
-     1,329,701,820 LLC-load-misses           #   12.52% of all LL-cache hits     ( +-  1.54% ) [14.29%]
- 2,001,652,428,479 instructions              #    0.00  insns per cycle          ( +-  0.54% ) [28.58%]
-    12,031,130,685 cache-references                                              ( +-  1.14% ) [42.86%]
-     1,413,495,150 cache-misses              #   11.749 % of all cache refs      ( +-  1.53% ) [57.15%]
+   412,505,992,529 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    25,719,199,494 L1-dcache-load-misses     #    6.23% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    13,169,566,040 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+     3,553,442,775 LLC-load-misses           #   26.98% of all LL-cache hits     ( +-  0.04% ) [14.29%]
+ 1,454,028,388,854 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    15,685,262,051 cache-references                                              ( +-  0.03% ) [42.86%]
+     4,209,425,241 cache-misses              #   26.837 % of all cache refs      ( +-  0.08% ) [57.15%]
 
-     300.335658772 seconds time elapsed                                          ( +-  0.00% )
+     300.341399725 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-i8mul.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k50-pdtpmsns2-tseitin.cnf -t 3' (5 runs):
 
-   816,418,687,381 L1-dcache-loads                                               ( +-  0.36% ) [71.43%]
-    47,957,695,136 L1-dcache-load-misses     #    5.87% of all L1-dcache hits    ( +-  0.37% ) [71.43%]
-    13,972,024,083 LLC-loads                                                     ( +-  0.66% ) [57.15%]
-     3,148,800,065 LLC-load-misses           #   22.54% of all LL-cache hits     ( +-  1.04% ) [14.29%]
- 2,781,713,375,287 instructions              #    0.00  insns per cycle          ( +-  0.36% ) [28.58%]
-    15,815,928,667 cache-references                                              ( +-  0.66% ) [42.86%]
-     3,380,651,844 cache-misses              #   21.375 % of all cache refs      ( +-  0.99% ) [57.15%]
+   565,539,147,224 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    34,406,816,814 L1-dcache-load-misses     #    6.08% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    17,402,226,172 LLC-loads                                                     ( +-  0.01% ) [57.15%]
+     6,254,339,791 LLC-load-misses           #   35.94% of all LL-cache hits     ( +-  0.10% ) [14.29%]
+ 1,997,658,028,091 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    20,860,243,319 cache-references                                              ( +-  0.02% ) [42.86%]
+     7,451,519,111 cache-misses              #   35.721 % of all cache refs      ( +-  0.04% ) [57.15%]
 
-     300.388716503 seconds time elapsed                                          ( +-  0.00% )
+     300.395235161 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-i8mul.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k50-pdtpmsns2-tseitin.cnf -t 4' (5 runs):
 
- 1,066,846,494,835 L1-dcache-loads                                               ( +-  0.36% ) [71.43%]
-    61,656,153,482 L1-dcache-load-misses     #    5.78% of all L1-dcache hits    ( +-  0.29% ) [71.43%]
-    17,556,848,988 LLC-loads                                                     ( +-  0.41% ) [57.14%]
-     5,015,982,027 LLC-load-misses           #   28.57% of all LL-cache hits     ( +-  0.63% ) [14.29%]
- 3,624,589,454,467 instructions              #    0.00  insns per cycle          ( +-  0.30% ) [28.58%]
-    20,018,214,131 cache-references                                              ( +-  0.36% ) [42.86%]
-     5,453,272,603 cache-misses              #   27.242 % of all cache refs      ( +-  0.59% ) [57.15%]
+   686,682,059,980 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    42,153,714,655 L1-dcache-load-misses     #    6.14% of all L1-dcache hits    ( +-  0.01% ) [71.43%]
+    21,645,684,826 LLC-loads                                                     ( +-  0.02% ) [57.15%]
+     9,691,305,597 LLC-load-misses           #   44.77% of all LL-cache hits     ( +-  0.05% ) [14.29%]
+ 2,421,974,005,922 instructions              #    0.00  insns per cycle          ( +-  0.02% ) [28.57%]
+    25,980,628,371 cache-references                                              ( +-  0.03% ) [42.86%]
+    11,563,180,160 cache-misses              #   44.507 % of all cache refs      ( +-  0.03% ) [57.15%]
 
-     300.362347929 seconds time elapsed                                          ( +-  0.00% )
+     300.367111176 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-i8mul.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k50-pdtpmsns2-tseitin.cnf -t 5' (5 runs):
 
- 1,230,370,040,955 L1-dcache-loads                                               ( +-  0.98% ) [71.43%]
-    70,756,935,096 L1-dcache-load-misses     #    5.75% of all L1-dcache hits    ( +-  0.87% ) [71.43%]
-    20,629,142,420 LLC-loads                                                     ( +-  1.56% ) [57.15%]
-     7,272,280,822 LLC-load-misses           #   35.25% of all LL-cache hits     ( +-  1.68% ) [14.29%]
- 4,178,444,101,656 instructions              #    0.00  insns per cycle          ( +-  0.95% ) [28.58%]
-    23,471,504,243 cache-references                                              ( +-  1.57% ) [42.86%]
-     7,990,166,974 cache-misses              #   34.042 % of all cache refs      ( +-  1.73% ) [57.15%]
+   834,687,925,291 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    50,415,548,194 L1-dcache-load-misses     #    6.04% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    25,285,736,798 LLC-loads                                                     ( +-  0.03% ) [57.14%]
+    12,477,024,791 LLC-load-misses           #   49.34% of all LL-cache hits     ( +-  0.06% ) [14.29%]
+ 2,947,570,821,623 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    30,303,942,532 cache-references                                              ( +-  0.03% ) [42.86%]
+    14,892,573,813 cache-misses              #   49.144 % of all cache refs      ( +-  0.05% ) [57.15%]
 
-     300.310810651 seconds time elapsed                                          ( +-  0.00% )
+     300.315526181 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/goldb-heqc-i8mul.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/hwmcc10-timeframe-expansion-k50-pdtpmsns2-tseitin.cnf -t 6' (5 runs):
 
- 1,462,318,744,430 L1-dcache-loads                                               ( +-  0.46% ) [71.43%]
-    83,763,482,507 L1-dcache-load-misses     #    5.73% of all L1-dcache hits    ( +-  0.43% ) [71.41%]
-    24,109,469,022 LLC-loads                                                     ( +-  0.68% ) [57.13%]
-     9,856,681,250 LLC-load-misses           #   40.88% of all LL-cache hits     ( +-  0.50% ) [14.30%]
- 4,950,868,173,941 instructions              #    0.00  insns per cycle          ( +-  0.42% ) [28.62%]
-    27,397,527,043 cache-references                                              ( +-  0.75% ) [42.90%]
-    10,900,048,307 cache-misses              #   39.785 % of all cache refs      ( +-  0.60% ) [57.16%]
+   974,345,587,927 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    58,522,026,528 L1-dcache-load-misses     #    6.01% of all L1-dcache hits    ( +-  0.03% ) [71.42%]
+    29,386,075,906 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+    15,862,741,261 LLC-load-misses           #   53.98% of all LL-cache hits     ( +-  0.02% ) [14.30%]
+ 3,437,601,438,279 instructions              #    0.00  insns per cycle          ( +-  0.02% ) [28.60%]
+    35,355,005,611 cache-references                                              ( +-  0.05% ) [42.88%]
+    19,000,502,528 cache-misses              #   53.742 % of all cache refs      ( +-  0.03% ) [57.15%]
 
-     304.726254946 seconds time elapsed                                          ( +-  0.00% )
+     304.633524190 seconds time elapsed                                          ( +-  0.01% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/grieu-vmpc-s05-27r.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/md5_48_3.cnf -t 1' (5 runs):
 
-   205,913,106,012 L1-dcache-loads                                               ( +-  0.27% ) [71.44%]
-    13,063,280,005 L1-dcache-load-misses     #    6.34% of all L1-dcache hits    ( +-  0.29% ) [71.43%]
-    10,458,617,604 LLC-loads                                                     ( +-  0.26% ) [57.15%]
-       279,579,744 LLC-load-misses           #    2.67% of all LL-cache hits     ( +-  0.67% ) [14.29%]
-   681,914,218,519 instructions              #    0.00  insns per cycle          ( +-  0.27% ) [28.59%]
-    10,626,794,603 cache-references                                              ( +-  0.24% ) [42.87%]
-       285,841,155 cache-misses              #    2.690 % of all cache refs      ( +-  0.85% ) [57.15%]
+   167,888,740,005 L1-dcache-loads                                               ( +-  0.24% ) [71.44%]
+    14,810,803,138 L1-dcache-load-misses     #    8.82% of all L1-dcache hits    ( +-  0.26% ) [71.43%]
+     9,207,532,238 LLC-loads                                                     ( +-  0.25% ) [57.15%]
+     1,110,373,841 LLC-load-misses           #   12.06% of all LL-cache hits     ( +-  0.49% ) [14.29%]
+   587,338,715,490 instructions              #    0.00  insns per cycle          ( +-  0.24% ) [28.58%]
+    10,426,272,289 cache-references                                              ( +-  0.22% ) [42.87%]
+     1,209,601,840 cache-misses              #   11.601 % of all cache refs      ( +-  0.33% ) [57.15%]
 
-     300.322317146 seconds time elapsed                                          ( +-  0.00% )
+     300.327296229 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/grieu-vmpc-s05-27r.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/md5_48_3.cnf -t 2' (5 runs):
 
-   107,227,064,832 L1-dcache-loads                                               ( +- 28.65% ) [71.43%]
-     6,403,194,919 L1-dcache-load-misses     #    5.97% of all L1-dcache hits    ( +- 30.73% ) [71.43%]
-     4,622,263,955 LLC-loads                                                     ( +- 32.59% ) [57.15%]
-       193,030,665 LLC-load-misses           #    4.18% of all LL-cache hits     ( +- 37.17% ) [14.29%]
-   359,126,920,956 instructions              #    0.00  insns per cycle          ( +- 28.32% ) [28.59%]
-     4,749,205,142 cache-references                                              ( +- 32.42% ) [42.87%]
-       196,560,180 cache-misses              #    4.139 % of all cache refs      ( +- 37.04% ) [57.15%]
+   303,853,066,956 L1-dcache-loads                                               ( +-  0.05% ) [71.43%]
+    25,669,362,636 L1-dcache-load-misses     #    8.45% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    15,779,179,107 LLC-loads                                                     ( +-  0.04% ) [57.15%]
+     3,676,454,161 LLC-load-misses           #   23.30% of all LL-cache hits     ( +-  0.08% ) [14.29%]
+ 1,065,739,064,015 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.58%]
+    18,186,073,642 cache-references                                              ( +-  0.04% ) [42.87%]
+     4,070,416,730 cache-misses              #   22.382 % of all cache refs      ( +-  0.06% ) [57.15%]
 
-      75.706427686 seconds time elapsed                                          ( +- 30.11% )
+     300.343821560 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/grieu-vmpc-s05-27r.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/md5_48_3.cnf -t 3' (5 runs):
 
-   189,606,148,823 L1-dcache-loads                                               ( +- 44.26% ) [71.43%]
-    12,196,688,131 L1-dcache-load-misses     #    6.43% of all L1-dcache hits    ( +- 46.98% ) [71.43%]
-     9,251,042,519 LLC-loads                                                     ( +- 49.63% ) [57.15%]
-       978,929,672 LLC-load-misses           #   10.58% of all LL-cache hits     ( +- 58.01% ) [14.29%]
-   631,215,281,343 instructions              #    0.00  insns per cycle          ( +- 43.97% ) [28.58%]
-     9,479,006,551 cache-references                                              ( +- 49.39% ) [42.86%]
-       988,327,429 cache-misses              #   10.426 % of all cache refs      ( +- 57.90% ) [57.15%]
+   410,128,051,195 L1-dcache-loads                                               ( +-  0.07% ) [71.43%]
+    34,488,590,035 L1-dcache-load-misses     #    8.41% of all L1-dcache hits    ( +-  0.10% ) [71.43%]
+    21,049,294,963 LLC-loads                                                     ( +-  0.11% ) [57.15%]
+     6,708,586,280 LLC-load-misses           #   31.87% of all LL-cache hits     ( +-  0.17% ) [14.29%]
+ 1,440,105,812,096 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.58%]
+    24,397,302,192 cache-references                                              ( +-  0.10% ) [42.86%]
+     7,501,704,769 cache-misses              #   30.748 % of all cache refs      ( +-  0.12% ) [57.15%]
 
-     103.313497240 seconds time elapsed                                          ( +- 47.33% )
+     300.399630096 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/grieu-vmpc-s05-27r.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/md5_48_3.cnf -t 4' (5 runs):
 
-   115,956,057,571 L1-dcache-loads                                               ( +- 25.10% ) [71.43%]
-     6,779,764,750 L1-dcache-load-misses     #    5.85% of all L1-dcache hits    ( +- 27.01% ) [71.43%]
-     4,717,694,200 LLC-loads                                                     ( +- 28.84% ) [57.16%]
-       528,643,917 LLC-load-misses           #   11.21% of all LL-cache hits     ( +- 30.05% ) [14.29%]
-   389,903,072,031 instructions              #    0.00  insns per cycle          ( +- 24.82% ) [28.57%]
-     4,880,573,768 cache-references                                              ( +- 28.68% ) [42.86%]
-       534,827,929 cache-misses              #   10.958 % of all cache refs      ( +- 29.95% ) [57.15%]
+   500,807,748,833 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    43,398,205,640 L1-dcache-load-misses     #    8.67% of all L1-dcache hits    ( +-  0.01% ) [71.43%]
+    26,615,122,878 LLC-loads                                                     ( +-  0.01% ) [57.15%]
+    10,402,559,661 LLC-load-misses           #   39.09% of all LL-cache hits     ( +-  0.07% ) [14.29%]
+ 1,755,110,237,803 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.57%]
+    30,771,161,004 cache-references                                              ( +-  0.04% ) [42.86%]
+    11,646,834,138 cache-misses              #   37.850 % of all cache refs      ( +-  0.05% ) [57.14%]
 
-      44.277126288 seconds time elapsed                                          ( +- 26.49% )
+     300.372742799 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/grieu-vmpc-s05-27r.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/md5_48_3.cnf -t 5' (5 runs):
 
-   213,146,020,768 L1-dcache-loads                                               ( +- 56.36% ) [71.43%]
-    13,456,083,743 L1-dcache-load-misses     #    6.31% of all L1-dcache hits    ( +- 60.38% ) [71.43%]
-    10,131,453,104 LLC-loads                                                     ( +- 63.80% ) [57.15%]
-     2,032,634,757 LLC-load-misses           #   20.06% of all LL-cache hits     ( +- 73.64% ) [14.29%]
-   711,196,104,299 instructions              #    0.00  insns per cycle          ( +- 55.86% ) [28.58%]
-    10,415,406,078 cache-references                                              ( +- 63.51% ) [42.86%]
-     2,055,906,813 cache-misses              #   19.739 % of all cache refs      ( +- 73.53% ) [57.15%]
+   598,736,647,492 L1-dcache-loads                                               ( +-  0.01% ) [71.43%]
+    51,134,119,888 L1-dcache-load-misses     #    8.54% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    30,822,846,801 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+    13,424,394,221 LLC-load-misses           #   43.55% of all LL-cache hits     ( +-  0.06% ) [14.29%]
+ 2,098,814,983,108 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.58%]
+    35,794,671,877 cache-references                                              ( +-  0.04% ) [42.86%]
+    15,096,931,933 cache-misses              #   42.176 % of all cache refs      ( +-  0.04% ) [57.15%]
 
-      78.085373683 seconds time elapsed                                          ( +- 61.48% )
+     300.324401521 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/grieu-vmpc-s05-27r.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/md5_48_3.cnf -t 6' (5 runs):
 
-   146,881,363,573 L1-dcache-loads                                               ( +- 27.98% ) [71.43%]
-     8,715,326,774 L1-dcache-load-misses     #    5.93% of all L1-dcache hits    ( +- 29.16% ) [71.42%]
-     6,202,620,189 LLC-loads                                                     ( +- 30.35% ) [57.14%]
-     1,178,896,581 LLC-load-misses           #   19.01% of all LL-cache hits     ( +- 31.62% ) [14.30%]
-   493,141,640,402 instructions              #    0.00  insns per cycle          ( +- 27.83% ) [28.61%]
-     6,419,450,882 cache-references                                              ( +- 30.24% ) [42.89%]
-     1,193,534,984 cache-misses              #   18.592 % of all cache refs      ( +- 31.57% ) [57.16%]
+   693,328,032,729 L1-dcache-loads                                               ( +-  0.04% ) [71.44%]
+    59,919,452,338 L1-dcache-load-misses     #    8.64% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    36,029,633,631 LLC-loads                                                     ( +-  0.04% ) [57.15%]
+    17,353,143,663 LLC-load-misses           #   48.16% of all LL-cache hits     ( +-  0.05% ) [14.29%]
+ 2,430,806,034,792 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.60%]
+    41,910,033,408 cache-references                                              ( +-  0.05% ) [42.89%]
+    19,584,456,335 cache-misses              #   46.730 % of all cache refs      ( +-  0.04% ) [57.16%]
 
-      42.056054815 seconds time elapsed                                          ( +- 29.04% )
+     304.178220785 seconds time elapsed                                          ( +-  0.02% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-20r-k75.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/q_query_3_L150_coli.sat.cnf -t 1' (5 runs):
 
-   180,611,591,394 L1-dcache-loads                                               ( +-  0.02% ) [71.44%]
-    11,893,174,845 L1-dcache-load-misses     #    6.58% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
-     6,554,216,196 LLC-loads                                                     ( +-  0.04% ) [57.16%]
-     1,083,394,987 LLC-load-misses           #   16.53% of all LL-cache hits     ( +-  0.34% ) [14.29%]
-   633,137,261,691 instructions              #    0.00  insns per cycle          ( +-  0.08% ) [28.59%]
-     8,107,275,118 cache-references                                              ( +-  0.05% ) [42.87%]
-     1,316,412,864 cache-misses              #   16.237 % of all cache refs      ( +-  0.19% ) [57.15%]
+   185,464,245,207 L1-dcache-loads                                               ( +-  0.26% ) [71.44%]
+    13,077,595,831 L1-dcache-load-misses     #    7.05% of all L1-dcache hits    ( +-  0.26% ) [71.43%]
+     8,618,343,540 LLC-loads                                                     ( +-  0.30% ) [57.15%]
+     1,990,325,522 LLC-load-misses           #   23.09% of all LL-cache hits     ( +-  0.78% ) [14.29%]
+   645,330,922,208 instructions              #    0.00  insns per cycle          ( +-  0.26% ) [28.58%]
+    10,060,454,686 cache-references                                              ( +-  0.27% ) [42.87%]
+     2,273,473,080 cache-misses              #   22.598 % of all cache refs      ( +-  0.96% ) [57.15%]
 
-     271.878992363 seconds time elapsed                                          ( +-  0.07% )
+     300.345748610 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-20r-k75.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/q_query_3_L150_coli.sat.cnf -t 2' (5 runs):
 
-   357,821,559,184 L1-dcache-loads                                               ( +-  1.51% ) [71.43%]
-    23,572,731,925 L1-dcache-load-misses     #    6.59% of all L1-dcache hits    ( +-  1.60% ) [71.43%]
-    12,953,181,950 LLC-loads                                                     ( +-  1.70% ) [57.15%]
-     3,160,000,905 LLC-load-misses           #   24.40% of all LL-cache hits     ( +-  1.74% ) [14.29%]
- 1,256,663,257,925 instructions              #    0.00  insns per cycle          ( +-  1.52% ) [28.58%]
-    16,388,667,935 cache-references                                              ( +-  1.70% ) [42.87%]
-     3,947,803,832 cache-misses              #   24.089 % of all cache refs      ( +-  1.89% ) [57.15%]
+   322,383,552,212 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    22,422,556,367 L1-dcache-load-misses     #    6.96% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    14,549,652,850 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+     5,667,872,866 LLC-load-misses           #   38.96% of all LL-cache hits     ( +-  0.17% ) [14.29%]
+ 1,123,512,479,074 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.58%]
+    17,207,493,482 cache-references                                              ( +-  0.04% ) [42.86%]
+     6,580,694,651 cache-misses              #   38.243 % of all cache refs      ( +-  0.08% ) [57.15%]
 
-     295.494582343 seconds time elapsed                                          ( +-  1.64% )
+     300.370921958 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-20r-k75.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/q_query_3_L150_coli.sat.cnf -t 3' (5 runs):
 
-   407,787,877,042 L1-dcache-loads                                               ( +- 11.24% ) [71.43%]
-    27,315,267,670 L1-dcache-load-misses     #    6.70% of all L1-dcache hits    ( +- 11.38% ) [71.43%]
-    15,083,387,179 LLC-loads                                                     ( +- 11.78% ) [57.14%]
-     4,768,030,175 LLC-load-misses           #   31.61% of all LL-cache hits     ( +- 12.92% ) [14.29%]
- 1,430,673,485,256 instructions              #    0.00  insns per cycle          ( +- 11.20% ) [28.58%]
-    19,121,242,993 cache-references                                              ( +- 11.56% ) [42.86%]
-     5,981,589,688 cache-misses              #   31.282 % of all cache refs      ( +- 12.74% ) [57.15%]
+   429,542,056,768 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    29,633,011,068 L1-dcache-load-misses     #    6.90% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    19,163,612,929 LLC-loads                                                     ( +-  0.02% ) [57.14%]
+     9,620,504,617 LLC-load-misses           #   50.20% of all LL-cache hits     ( +-  0.05% ) [14.29%]
+ 1,498,825,883,889 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    22,759,444,021 cache-references                                              ( +-  0.02% ) [42.86%]
+    11,276,315,350 cache-misses              #   49.546 % of all cache refs      ( +-  0.04% ) [57.15%]
 
-     249.969755152 seconds time elapsed                                          ( +- 11.72% )
+     300.435316455 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-20r-k75.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/q_query_3_L150_coli.sat.cnf -t 4' (5 runs):
 
-   552,179,293,135 L1-dcache-loads                                               ( +-  7.55% ) [71.43%]
-    36,793,868,327 L1-dcache-load-misses     #    6.66% of all L1-dcache hits    ( +-  7.58% ) [71.43%]
-    20,102,893,544 LLC-loads                                                     ( +-  7.83% ) [57.14%]
-     7,564,447,828 LLC-load-misses           #   37.63% of all LL-cache hits     ( +-  8.54% ) [14.29%]
- 1,941,444,305,561 instructions              #    0.00  insns per cycle          ( +-  7.52% ) [28.58%]
-    25,669,576,259 cache-references                                              ( +-  7.68% ) [42.86%]
-     9,590,453,385 cache-misses              #   37.361 % of all cache refs      ( +-  8.40% ) [57.15%]
+   526,437,862,641 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    36,089,732,690 L1-dcache-load-misses     #    6.86% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    23,208,999,631 LLC-loads                                                     ( +-  0.02% ) [57.15%]
+    13,503,274,728 LLC-load-misses           #   58.18% of all LL-cache hits     ( +-  0.08% ) [14.29%]
+ 1,837,746,733,691 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.58%]
+    27,694,798,800 cache-references                                              ( +-  0.01% ) [42.86%]
+    15,920,383,693 cache-misses              #   57.485 % of all cache refs      ( +-  0.02% ) [57.15%]
 
-     267.141330286 seconds time elapsed                                          ( +-  7.83% )
+     300.418109727 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-20r-k75.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/q_query_3_L150_coli.sat.cnf -t 5' (5 runs):
 
-   689,492,244,139 L1-dcache-loads                                               ( +-  2.88% ) [71.43%]
-    45,978,095,221 L1-dcache-load-misses     #    6.67% of all L1-dcache hits    ( +-  2.81% ) [71.43%]
-    25,048,274,145 LLC-loads                                                     ( +-  2.89% ) [57.15%]
-    10,756,841,431 LLC-load-misses           #   42.94% of all LL-cache hits     ( +-  3.15% ) [14.29%]
- 2,424,673,192,440 instructions              #    0.00  insns per cycle          ( +-  2.87% ) [28.58%]
-    32,003,334,810 cache-references                                              ( +-  2.87% ) [42.86%]
-    13,679,015,066 cache-misses              #   42.742 % of all cache refs      ( +-  3.07% ) [57.15%]
+   623,111,528,687 L1-dcache-loads                                               ( +-  0.04% ) [71.43%]
+    43,019,155,457 L1-dcache-load-misses     #    6.90% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    27,721,802,989 LLC-loads                                                     ( +-  0.04% ) [57.14%]
+    17,220,684,299 LLC-load-misses           #   62.12% of all LL-cache hits     ( +-  0.01% ) [14.29%]
+ 2,174,190,353,739 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.58%]
+    33,064,756,537 cache-references                                              ( +-  0.03% ) [42.86%]
+    20,273,123,794 cache-misses              #   61.313 % of all cache refs      ( +-  0.03% ) [57.15%]
 
-     287.358616665 seconds time elapsed                                          ( +-  2.93% )
+     300.380556567 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-20r-k75.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/q_query_3_L150_coli.sat.cnf -t 6' (5 runs):
 
-   706,098,262,799 L1-dcache-loads                                               ( +-  6.64% ) [71.44%]
-    47,289,188,908 L1-dcache-load-misses     #    6.70% of all L1-dcache hits    ( +-  6.67% ) [71.43%]
-    25,576,831,573 LLC-loads                                                     ( +-  6.94% ) [57.15%]
-    11,988,656,901 LLC-load-misses           #   46.87% of all LL-cache hits     ( +-  7.46% ) [14.29%]
- 2,484,521,428,781 instructions              #    0.00  insns per cycle          ( +-  6.60% ) [28.60%]
-    32,788,368,104 cache-references                                              ( +-  6.81% ) [42.88%]
-    15,329,015,364 cache-misses              #   46.751 % of all cache refs      ( +-  7.29% ) [57.16%]
+   726,696,180,577 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    50,698,148,267 L1-dcache-load-misses     #    6.98% of all L1-dcache hits    ( +-  0.03% ) [71.42%]
+    32,653,316,430 LLC-loads                                                     ( +-  0.02% ) [57.15%]
+    21,569,017,468 LLC-load-misses           #   66.05% of all LL-cache hits     ( +-  0.04% ) [14.29%]
+ 2,534,756,720,294 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.60%]
+    38,929,343,944 cache-references                                              ( +-  0.03% ) [42.88%]
+    25,410,741,320 cache-misses              #   65.274 % of all cache refs      ( +-  0.03% ) [57.15%]
 
-     255.129685382 seconds time elapsed                                          ( +-  6.90% )
+     304.678134365 seconds time elapsed                                          ( +-  0.01% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-24r3-k100.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/slp-synthesis-aes-top30.cnf -t 1' (5 runs):
 
-   117,249,897,493 L1-dcache-loads                                               ( +-  0.04% ) [71.44%]
-     7,718,979,328 L1-dcache-load-misses     #    6.58% of all L1-dcache hits    ( +-  0.01% ) [71.43%]
-     4,357,847,879 LLC-loads                                                     ( +-  0.02% ) [57.15%]
-       594,895,931 LLC-load-misses           #   13.65% of all LL-cache hits     ( +-  0.26% ) [14.29%]
-   413,001,621,955 instructions              #    0.00  insns per cycle          ( +-  0.15% ) [28.59%]
-     5,490,081,704 cache-references                                              ( +-  0.05% ) [42.87%]
-       735,849,035 cache-misses              #   13.403 % of all cache refs      ( +-  0.17% ) [57.16%]
+   206,236,290,361 L1-dcache-loads                                               ( +-  0.41% ) [71.43%]
+    15,225,013,680 L1-dcache-load-misses     #    7.38% of all L1-dcache hits    ( +-  0.40% ) [71.43%]
+     9,405,507,515 LLC-loads                                                     ( +-  0.44% ) [57.16%]
+     1,083,292,573 LLC-load-misses           #   11.52% of all LL-cache hits     ( +-  0.67% ) [14.29%]
+   714,130,112,416 instructions              #    0.00  insns per cycle          ( +-  0.39% ) [28.58%]
+    11,116,813,540 cache-references                                              ( +-  0.42% ) [42.87%]
+     1,272,035,728 cache-misses              #   11.442 % of all cache refs      ( +-  0.25% ) [57.15%]
 
-     172.441222164 seconds time elapsed                                          ( +-  0.04% )
+     300.326670632 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-24r3-k100.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/slp-synthesis-aes-top30.cnf -t 2' (5 runs):
 
-   195,593,548,042 L1-dcache-loads                                               ( +-  1.06% ) [71.43%]
-    12,480,333,439 L1-dcache-load-misses     #    6.38% of all L1-dcache hits    ( +-  0.93% ) [71.43%]
-     6,897,103,498 LLC-loads                                                     ( +-  1.01% ) [57.15%]
-     1,550,711,916 LLC-load-misses           #   22.48% of all LL-cache hits     ( +-  1.57% ) [14.29%]
-   691,532,573,426 instructions              #    0.00  insns per cycle          ( +-  1.10% ) [28.58%]
-     8,994,201,585 cache-references                                              ( +-  1.03% ) [42.86%]
-     2,034,254,796 cache-misses              #   22.617 % of all cache refs      ( +-  1.87% ) [57.15%]
+   378,527,956,036 L1-dcache-loads                                               ( +-  0.04% ) [71.43%]
+    27,296,798,015 L1-dcache-load-misses     #    7.21% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
+    16,491,958,671 LLC-loads                                                     ( +-  0.06% ) [57.15%]
+     3,367,805,944 LLC-load-misses           #   20.42% of all LL-cache hits     ( +-  0.16% ) [14.29%]
+ 1,316,131,948,050 instructions              #    0.00  insns per cycle          ( +-  0.02% ) [28.58%]
+    19,884,437,912 cache-references                                              ( +-  0.05% ) [42.86%]
+     4,024,613,017 cache-misses              #   20.240 % of all cache refs      ( +-  0.09% ) [57.15%]
 
-     155.767354931 seconds time elapsed                                          ( +-  1.03% )
+     300.344819400 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-24r3-k100.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/slp-synthesis-aes-top30.cnf -t 3' (5 runs):
 
-   277,740,290,345 L1-dcache-loads                                               ( +-  8.67% ) [71.43%]
-    17,699,028,914 L1-dcache-load-misses     #    6.37% of all L1-dcache hits    ( +-  7.96% ) [71.43%]
-     9,746,798,985 LLC-loads                                                     ( +-  7.87% ) [57.15%]
-     3,051,413,450 LLC-load-misses           #   31.31% of all LL-cache hits     ( +-  8.53% ) [14.29%]
-   980,848,225,615 instructions              #    0.00  insns per cycle          ( +-  8.66% ) [28.58%]
-    12,724,117,564 cache-references                                              ( +-  7.61% ) [42.86%]
-     4,016,877,199 cache-misses              #   31.569 % of all cache refs      ( +-  8.32% ) [57.15%]
+   507,538,480,473 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    36,637,038,536 L1-dcache-load-misses     #    7.22% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    22,057,270,026 LLC-loads                                                     ( +-  0.03% ) [57.15%]
+     6,467,770,462 LLC-load-misses           #   29.32% of all LL-cache hits     ( +-  0.12% ) [14.29%]
+ 1,764,491,595,547 instructions              #    0.00  insns per cycle          ( +-  0.02% ) [28.58%]
+    26,704,628,948 cache-references                                              ( +-  0.03% ) [42.86%]
+     7,759,642,910 cache-misses              #   29.057 % of all cache refs      ( +-  0.01% ) [57.15%]
 
-     163.453209536 seconds time elapsed                                          ( +-  8.15% )
+     300.400815370 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-24r3-k100.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/slp-synthesis-aes-top30.cnf -t 4' (5 runs):
 
-   377,376,586,280 L1-dcache-loads                                               ( +- 11.70% ) [71.43%]
-    24,454,874,377 L1-dcache-load-misses     #    6.48% of all L1-dcache hits    ( +- 10.98% ) [71.43%]
-    13,605,229,992 LLC-loads                                                     ( +- 11.31% ) [57.15%]
-     5,069,039,109 LLC-load-misses           #   37.26% of all LL-cache hits     ( +- 11.31% ) [14.29%]
- 1,334,536,841,010 instructions              #    0.00  insns per cycle          ( +- 11.64% ) [28.58%]
-    17,760,624,998 cache-references                                              ( +- 10.77% ) [42.86%]
-     6,693,855,472 cache-misses              #   37.689 % of all cache refs      ( +- 10.60% ) [57.14%]
+   607,671,257,430 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    45,691,180,102 L1-dcache-load-misses     #    7.52% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    27,718,314,840 LLC-loads                                                     ( +-  0.04% ) [57.14%]
+    10,198,630,124 LLC-load-misses           #   36.79% of all LL-cache hits     ( +-  0.12% ) [14.29%]
+ 2,109,860,164,376 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    33,409,299,261 cache-references                                              ( +-  0.05% ) [42.86%]
+    12,173,630,252 cache-misses              #   36.438 % of all cache refs      ( +-  0.06% ) [57.15%]
 
-     180.133090189 seconds time elapsed                                          ( +- 11.18% )
+     300.376813903 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-24r3-k100.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/slp-synthesis-aes-top30.cnf -t 5' (5 runs):
 
-   347,794,728,061 L1-dcache-loads                                               ( +-  3.61% ) [71.43%]
-    22,927,727,958 L1-dcache-load-misses     #    6.59% of all L1-dcache hits    ( +-  3.35% ) [71.43%]
-    12,694,989,972 LLC-loads                                                     ( +-  3.34% ) [57.15%]
-     5,344,325,901 LLC-load-misses           #   42.10% of all LL-cache hits     ( +-  3.51% ) [14.29%]
- 1,231,387,409,837 instructions              #    0.00  insns per cycle          ( +-  3.59% ) [28.58%]
-    16,723,508,918 cache-references                                              ( +-  3.25% ) [42.86%]
-     7,150,171,568 cache-misses              #   42.755 % of all cache refs      ( +-  3.43% ) [57.14%]
+   713,165,042,340 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    53,402,722,603 L1-dcache-load-misses     #    7.49% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    32,201,246,301 LLC-loads                                                     ( +-  0.05% ) [57.15%]
+    13,612,147,024 LLC-load-misses           #   42.27% of all LL-cache hits     ( +-  0.08% ) [14.29%]
+ 2,476,559,832,750 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.58%]
+    38,989,086,100 cache-references                                              ( +-  0.04% ) [42.86%]
+    16,297,763,178 cache-misses              #   41.801 % of all cache refs      ( +-  0.06% ) [57.15%]
 
-     144.780508256 seconds time elapsed                                          ( +-  3.40% )
+     300.326934150 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-24r3-k100.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/slp-synthesis-aes-top30.cnf -t 6' (5 runs):
 
-   396,462,588,272 L1-dcache-loads                                               ( +-  8.40% ) [71.41%]
-    26,431,078,847 L1-dcache-load-misses     #    6.67% of all L1-dcache hits    ( +-  7.38% ) [71.41%]
-    14,628,209,486 LLC-loads                                                     ( +-  7.14% ) [57.16%]
-     6,757,795,268 LLC-load-misses           #   46.20% of all LL-cache hits     ( +-  7.77% ) [14.30%]
- 1,404,348,845,550 instructions              #    0.00  insns per cycle          ( +-  8.39% ) [28.60%]
-    19,224,896,290 cache-references                                              ( +-  6.98% ) [42.87%]
-     9,042,679,952 cache-misses              #   47.036 % of all cache refs      ( +-  7.62% ) [57.13%]
+   822,181,362,185 L1-dcache-loads                                               ( +-  0.04% ) [71.44%]
+    61,211,677,424 L1-dcache-load-misses     #    7.45% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    36,791,647,616 LLC-loads                                                     ( +-  0.05% ) [57.15%]
+    17,535,260,074 LLC-load-misses           #   47.66% of all LL-cache hits     ( +-  0.06% ) [14.29%]
+ 2,852,779,379,028 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.60%]
+    44,633,088,610 cache-references                                              ( +-  0.05% ) [42.89%]
+    21,047,414,457 cache-misses              #   47.157 % of all cache refs      ( +-  0.04% ) [57.17%]
 
-     144.206482298 seconds time elapsed                                          ( +-  7.56% )
+     304.516397598 seconds time elapsed                                          ( +-  0.01% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-31_1r3-k30.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/traffic_b_unsat.cnf -t 1' (5 runs):
 
-   240,435,245,813 L1-dcache-loads                                               ( +-  0.08% ) [71.44%]
-    12,552,209,633 L1-dcache-load-misses     #    5.22% of all L1-dcache hits    ( +-  0.08% ) [71.43%]
-     7,063,620,248 LLC-loads                                                     ( +-  0.03% ) [57.15%]
-       539,008,872 LLC-load-misses           #    7.63% of all LL-cache hits     ( +-  0.12% ) [14.29%]
-   827,995,580,345 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.59%]
-     8,076,020,195 cache-references                                              ( +-  0.06% ) [42.87%]
-       602,824,916 cache-misses              #    7.464 % of all cache refs      ( +-  0.16% ) [57.16%]
+   139,562,518,101 L1-dcache-loads                                               ( +-  0.61% ) [71.44%]
+    14,527,360,044 L1-dcache-load-misses     #   10.41% of all L1-dcache hits    ( +-  0.67% ) [71.43%]
+    11,161,036,957 LLC-loads                                                     ( +-  0.64% ) [57.15%]
+       494,040,477 LLC-load-misses           #    4.43% of all LL-cache hits     ( +-  3.45% ) [14.29%]
+   447,933,923,600 instructions              #    0.00  insns per cycle          ( +-  0.62% ) [28.59%]
+    11,290,308,423 cache-references                                              ( +-  0.65% ) [42.87%]
+       502,099,365 cache-misses              #    4.447 % of all cache refs      ( +-  3.12% ) [57.16%]
 
-     300.323298942 seconds time elapsed                                          ( +-  0.00% )
+     300.323680463 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-31_1r3-k30.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/traffic_b_unsat.cnf -t 2' (5 runs):
 
-   449,033,964,205 L1-dcache-loads                                               ( +-  0.35% ) [71.43%]
-    22,992,669,831 L1-dcache-load-misses     #    5.12% of all L1-dcache hits    ( +-  0.36% ) [71.43%]
-    13,169,409,468 LLC-loads                                                     ( +-  0.16% ) [57.15%]
-     1,946,569,705 LLC-load-misses           #   14.78% of all LL-cache hits     ( +-  1.43% ) [14.29%]
- 1,551,798,076,007 instructions              #    0.00  insns per cycle          ( +-  0.37% ) [28.58%]
-    15,512,644,507 cache-references                                              ( +-  0.15% ) [42.86%]
-     2,229,716,310 cache-misses              #   14.374 % of all cache refs      ( +-  1.43% ) [57.15%]
+   245,258,557,775 L1-dcache-loads                                               ( +-  0.19% ) [71.43%]
+    25,551,501,573 L1-dcache-load-misses     #   10.42% of all L1-dcache hits    ( +-  0.24% ) [71.43%]
+    18,923,780,924 LLC-loads                                                     ( +-  0.24% ) [57.15%]
+     3,285,994,493 LLC-load-misses           #   17.36% of all LL-cache hits     ( +-  0.71% ) [14.29%]
+   787,788,993,715 instructions              #    0.00  insns per cycle          ( +-  0.19% ) [28.58%]
+    19,282,487,840 cache-references                                              ( +-  0.22% ) [42.86%]
+     3,310,613,095 cache-misses              #   17.169 % of all cache refs      ( +-  0.77% ) [57.15%]
 
-     300.343605753 seconds time elapsed                                          ( +-  0.00% )
+     300.341801749 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-31_1r3-k30.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/traffic_b_unsat.cnf -t 3' (5 runs):
 
-   583,718,467,243 L1-dcache-loads                                               ( +-  0.45% ) [71.43%]
-    31,479,936,256 L1-dcache-load-misses     #    5.39% of all L1-dcache hits    ( +-  0.24% ) [71.43%]
-    18,385,772,632 LLC-loads                                                     ( +-  0.45% ) [57.15%]
-     4,485,702,781 LLC-load-misses           #   24.40% of all LL-cache hits     ( +-  0.87% ) [14.29%]
- 2,014,169,188,809 instructions              #    0.00  insns per cycle          ( +-  0.51% ) [28.58%]
-    21,701,381,416 cache-references                                              ( +-  0.49% ) [42.86%]
-     5,166,453,736 cache-misses              #   23.807 % of all cache refs      ( +-  0.72% ) [57.15%]
+   309,284,394,852 L1-dcache-loads                                               ( +-  0.15% ) [71.43%]
+    35,602,674,826 L1-dcache-load-misses     #   11.51% of all L1-dcache hits    ( +-  0.16% ) [71.43%]
+    25,174,603,614 LLC-loads                                                     ( +-  0.16% ) [57.14%]
+     8,041,237,380 LLC-load-misses           #   31.94% of all LL-cache hits     ( +-  0.27% ) [14.29%]
+   993,222,304,997 instructions              #    0.00  insns per cycle          ( +-  0.14% ) [28.58%]
+    25,680,165,490 cache-references                                              ( +-  0.16% ) [42.86%]
+     8,114,314,778 cache-misses              #   31.598 % of all cache refs      ( +-  0.30% ) [57.15%]
 
-     300.399197149 seconds time elapsed                                          ( +-  0.00% )
+     300.398107650 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-31_1r3-k30.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/traffic_b_unsat.cnf -t 4' (5 runs):
 
-   758,781,500,327 L1-dcache-loads                                               ( +-  0.73% ) [71.43%]
-    39,779,549,715 L1-dcache-load-misses     #    5.24% of all L1-dcache hits    ( +-  0.33% ) [71.43%]
-    22,625,793,247 LLC-loads                                                     ( +-  0.54% ) [57.15%]
-     6,716,910,150 LLC-load-misses           #   29.69% of all LL-cache hits     ( +-  0.97% ) [14.29%]
- 2,620,465,065,331 instructions              #    0.00  insns per cycle          ( +-  0.74% ) [28.58%]
-    27,005,626,562 cache-references                                              ( +-  0.64% ) [42.86%]
-     7,877,718,577 cache-misses              #   29.171 % of all cache refs      ( +-  1.21% ) [57.15%]
+   354,578,384,498 L1-dcache-loads                                               ( +-  0.07% ) [71.43%]
+    39,522,015,384 L1-dcache-load-misses     #   11.15% of all L1-dcache hits    ( +-  0.08% ) [71.43%]
+    28,436,321,120 LLC-loads                                                     ( +-  0.06% ) [57.14%]
+    12,588,391,193 LLC-load-misses           #   44.27% of all LL-cache hits     ( +-  0.11% ) [14.29%]
+ 1,138,350,072,199 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.58%]
+    29,065,756,770 cache-references                                              ( +-  0.07% ) [42.86%]
+    12,708,989,805 cache-misses              #   43.725 % of all cache refs      ( +-  0.08% ) [57.15%]
 
-     300.371763435 seconds time elapsed                                          ( +-  0.00% )
+     300.371923125 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-31_1r3-k30.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/traffic_b_unsat.cnf -t 5' (5 runs):
 
-   877,683,130,819 L1-dcache-loads                                               ( +-  0.69% ) [71.43%]
-    46,735,036,086 L1-dcache-load-misses     #    5.32% of all L1-dcache hits    ( +-  0.62% ) [71.43%]
-    25,769,039,342 LLC-loads                                                     ( +-  0.66% ) [57.14%]
-     9,291,403,032 LLC-load-misses           #   36.06% of all LL-cache hits     ( +-  0.74% ) [14.29%]
- 3,030,866,130,718 instructions              #    0.00  insns per cycle          ( +-  0.71% ) [28.58%]
-    30,836,315,574 cache-references                                              ( +-  0.57% ) [42.86%]
-    11,003,151,258 cache-misses              #   35.682 % of all cache refs      ( +-  0.63% ) [57.15%]
+   406,344,531,261 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    44,474,156,882 L1-dcache-load-misses     #   10.94% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    31,993,304,946 LLC-loads                                                     ( +-  0.04% ) [57.15%]
+    16,672,262,956 LLC-load-misses           #   52.11% of all LL-cache hits     ( +-  0.03% ) [14.29%]
+ 1,305,954,663,082 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    32,752,126,725 cache-references                                              ( +-  0.05% ) [42.86%]
+    16,842,188,404 cache-misses              #   51.423 % of all cache refs      ( +-  0.03% ) [57.15%]
 
-     300.323549762 seconds time elapsed                                          ( +-  0.00% )
+     300.321257282 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2002-31_1r3-k30.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/traffic_b_unsat.cnf -t 6' (5 runs):
 
- 1,033,390,732,294 L1-dcache-loads                                               ( +-  1.11% ) [71.43%]
-    55,004,613,098 L1-dcache-load-misses     #    5.32% of all L1-dcache hits    ( +-  0.58% ) [71.43%]
-    29,956,572,628 LLC-loads                                                     ( +-  0.68% ) [57.15%]
-    12,431,531,378 LLC-load-misses           #   41.50% of all LL-cache hits     ( +-  1.19% ) [14.29%]
- 3,561,136,325,973 instructions              #    0.00  insns per cycle          ( +-  1.12% ) [28.60%]
-    35,722,218,297 cache-references                                              ( +-  0.68% ) [42.88%]
-    14,695,722,473 cache-misses              #   41.139 % of all cache refs      ( +-  1.24% ) [57.15%]
+   457,293,432,462 L1-dcache-loads                                               ( +-  0.05% ) [71.43%]
+    50,374,435,772 L1-dcache-load-misses     #   11.02% of all L1-dcache hits    ( +-  0.05% ) [71.42%]
+    36,202,962,248 LLC-loads                                                     ( +-  0.05% ) [57.15%]
+    21,634,589,714 LLC-load-misses           #   59.76% of all LL-cache hits     ( +-  0.03% ) [14.30%]
+ 1,468,001,650,982 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.60%]
+    37,095,202,815 cache-references                                              ( +-  0.04% ) [42.88%]
+    21,857,346,815 cache-misses              #   58.922 % of all cache refs      ( +-  0.04% ) [57.15%]
 
-     304.679318840 seconds time elapsed                                          ( +-  0.01% )
+     304.683768870 seconds time elapsed                                          ( +-  0.01% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2004-23-k80.cnf.gz -t 1' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/UCG-15-10p1.cnf -t 1' (5 runs):
 
-   176,419,900,177 L1-dcache-loads                                               ( +-  0.07% ) [71.44%]
-    15,769,777,112 L1-dcache-load-misses     #    8.94% of all L1-dcache hits    ( +-  0.07% ) [71.43%]
-     6,749,299,303 LLC-loads                                                     ( +-  0.06% ) [57.15%]
-       929,767,545 LLC-load-misses           #   13.78% of all LL-cache hits     ( +-  0.30% ) [14.29%]
-   776,970,824,797 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.59%]
-     8,147,285,316 cache-references                                              ( +-  0.04% ) [42.88%]
-     1,114,804,234 cache-misses              #   13.683 % of all cache refs      ( +-  0.53% ) [57.16%]
+   347,870,843,162 L1-dcache-loads                                               ( +-  0.16% ) [71.44%]
+    23,356,415,948 L1-dcache-load-misses     #    6.71% of all L1-dcache hits    ( +-  0.15% ) [71.43%]
+     4,753,773,680 LLC-loads                                                     ( +-  0.14% ) [57.15%]
+     1,015,592,069 LLC-load-misses           #   21.36% of all LL-cache hits     ( +-  0.55% ) [14.29%]
+ 1,197,147,659,024 instructions              #    0.00  insns per cycle          ( +-  0.19% ) [28.59%]
+     5,812,250,471 cache-references                                              ( +-  0.17% ) [42.87%]
+     1,269,198,097 cache-misses              #   21.837 % of all cache refs      ( +-  0.42% ) [57.16%]
 
-     300.331433363 seconds time elapsed                                          ( +-  0.00% )
+     300.328265853 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2004-23-k80.cnf.gz -t 2' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/UCG-15-10p1.cnf -t 2' (5 runs):
 
-   339,377,947,293 L1-dcache-loads                                               ( +-  1.30% ) [71.43%]
-    29,911,166,773 L1-dcache-load-misses     #    8.81% of all L1-dcache hits    ( +-  0.37% ) [71.43%]
-    13,474,809,744 LLC-loads                                                     ( +-  2.98% ) [57.14%]
-     2,672,504,901 LLC-load-misses           #   19.83% of all LL-cache hits     ( +-  2.54% ) [14.29%]
- 1,343,759,980,123 instructions              #    0.00  insns per cycle          ( +-  3.86% ) [28.58%]
-    16,665,035,158 cache-references                                              ( +-  3.01% ) [42.87%]
-     3,277,679,247 cache-misses              #   19.668 % of all cache refs      ( +-  2.64% ) [57.15%]
+   622,327,470,950 L1-dcache-loads                                               ( +-  0.05% ) [71.43%]
+    41,550,124,615 L1-dcache-load-misses     #    6.68% of all L1-dcache hits    ( +-  0.09% ) [71.43%]
+     9,101,618,861 LLC-loads                                                     ( +-  0.16% ) [57.15%]
+     2,894,133,457 LLC-load-misses           #   31.80% of all LL-cache hits     ( +-  0.13% ) [14.29%]
+ 2,150,102,974,941 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.58%]
+    11,068,587,182 cache-references                                              ( +-  0.09% ) [42.87%]
+     3,673,382,019 cache-misses              #   33.187 % of all cache refs      ( +-  0.16% ) [57.15%]
 
-     300.345163179 seconds time elapsed                                          ( +-  0.00% )
+     300.345371788 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2004-23-k80.cnf.gz -t 3' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/UCG-15-10p1.cnf -t 3' (5 runs):
 
-   467,812,832,235 L1-dcache-loads                                               ( +-  0.68% ) [71.43%]
-    41,247,929,691 L1-dcache-load-misses     #    8.82% of all L1-dcache hits    ( +-  0.16% ) [71.43%]
-    19,414,751,740 LLC-loads                                                     ( +-  1.83% ) [57.15%]
-     5,024,523,375 LLC-load-misses           #   25.88% of all LL-cache hits     ( +-  1.62% ) [14.29%]
- 1,742,138,720,191 instructions              #    0.00  insns per cycle          ( +-  2.70% ) [28.58%]
-    24,029,368,019 cache-references                                              ( +-  1.87% ) [42.86%]
-     6,150,329,741 cache-misses              #   25.595 % of all cache refs      ( +-  1.56% ) [57.15%]
+   870,518,901,451 L1-dcache-loads                                               ( +-  0.05% ) [71.43%]
+    58,700,719,696 L1-dcache-load-misses     #    6.74% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
+    12,868,989,264 LLC-loads                                                     ( +-  0.19% ) [57.15%]
+     5,222,074,461 LLC-load-misses           #   40.58% of all LL-cache hits     ( +-  0.10% ) [14.29%]
+ 3,008,202,291,769 instructions              #    0.00  insns per cycle          ( +-  0.08% ) [28.58%]
+    15,621,087,786 cache-references                                              ( +-  0.20% ) [42.86%]
+     6,646,756,926 cache-misses              #   42.550 % of all cache refs      ( +-  0.10% ) [57.15%]
 
-     300.399712522 seconds time elapsed                                          ( +-  0.00% )
+     300.402925690 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2004-23-k80.cnf.gz -t 4' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/UCG-15-10p1.cnf -t 4' (5 runs):
 
-   589,435,980,888 L1-dcache-loads                                               ( +-  0.39% ) [71.43%]
-    52,066,395,057 L1-dcache-load-misses     #    8.83% of all L1-dcache hits    ( +-  0.10% ) [71.43%]
-    23,902,636,742 LLC-loads                                                     ( +-  1.37% ) [57.15%]
-     7,393,861,635 LLC-load-misses           #   30.93% of all LL-cache hits     ( +-  1.16% ) [14.29%]
- 2,275,620,047,252 instructions              #    0.00  insns per cycle          ( +-  2.05% ) [28.58%]
-    29,784,847,927 cache-references                                              ( +-  1.33% ) [42.86%]
-     9,159,333,233 cache-misses              #   30.752 % of all cache refs      ( +-  1.24% ) [57.14%]
+ 1,112,199,763,916 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+    73,785,127,459 L1-dcache-load-misses     #    6.63% of all L1-dcache hits    ( +-  0.02% ) [71.43%]
+    16,613,521,409 LLC-loads                                                     ( +-  0.06% ) [57.15%]
+     7,236,205,072 LLC-load-misses           #   43.56% of all LL-cache hits     ( +-  0.10% ) [14.29%]
+ 3,864,862,724,258 instructions              #    0.00  insns per cycle          ( +-  0.02% ) [28.58%]
+    20,059,092,747 cache-references                                              ( +-  0.09% ) [42.86%]
+     9,215,610,477 cache-misses              #   45.942 % of all cache refs      ( +-  0.09% ) [57.15%]
 
-     300.375717561 seconds time elapsed                                          ( +-  0.00% )
+     300.378769602 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2004-23-k80.cnf.gz -t 5' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/UCG-15-10p1.cnf -t 5' (5 runs):
 
-   689,980,888,036 L1-dcache-loads                                               ( +-  0.55% ) [71.43%]
-    61,008,497,408 L1-dcache-load-misses     #    8.84% of all L1-dcache hits    ( +-  0.23% ) [71.43%]
-    28,477,831,062 LLC-loads                                                     ( +-  0.91% ) [57.15%]
-    10,054,778,424 LLC-load-misses           #   35.31% of all LL-cache hits     ( +-  0.41% ) [14.29%]
- 2,542,028,011,569 instructions              #    0.00  insns per cycle          ( +-  1.15% ) [28.58%]
-    35,587,297,027 cache-references                                              ( +-  0.93% ) [42.86%]
-    12,505,014,204 cache-misses              #   35.139 % of all cache refs      ( +-  0.44% ) [57.15%]
+ 1,342,308,468,305 L1-dcache-loads                                               ( +-  0.02% ) [71.43%]
+    87,239,999,513 L1-dcache-load-misses     #    6.50% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
+    19,564,321,641 LLC-loads                                                     ( +-  0.08% ) [57.15%]
+     9,169,362,083 LLC-load-misses           #   46.87% of all LL-cache hits     ( +-  0.13% ) [14.29%]
+ 4,671,881,800,076 instructions              #    0.00  insns per cycle          ( +-  0.03% ) [28.58%]
+    23,661,612,211 cache-references                                              ( +-  0.09% ) [42.86%]
+    11,634,669,027 cache-misses              #   49.171 % of all cache refs      ( +-  0.06% ) [57.15%]
 
-     300.326848262 seconds time elapsed                                          ( +-  0.00% )
+     300.328964505 seconds time elapsed                                          ( +-  0.00% )
 
 
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/ibm-2004-23-k80.cnf.gz -t 6' (5 runs):
+ Performance counter stats for './timeout -t 300 ./shared-none-different-search -f /home/keira/sat/satold/experimentos-plingeling-finales/benchmarks_plingeling/UCG-15-10p1.cnf -t 6' (5 runs):
 
-   808,201,102,445 L1-dcache-loads                                               ( +-  0.42% ) [71.44%]
-    71,465,496,817 L1-dcache-load-misses     #    8.84% of all L1-dcache hits    ( +-  0.15% ) [71.44%]
-    33,370,182,003 LLC-loads                                                     ( +-  0.96% ) [57.15%]
-    13,079,188,362 LLC-load-misses           #   39.19% of all LL-cache hits     ( +-  0.56% ) [14.29%]
- 2,958,257,954,547 instructions              #    0.00  insns per cycle          ( +-  1.45% ) [28.60%]
-    41,712,912,985 cache-references                                              ( +-  0.97% ) [42.88%]
-    16,310,315,149 cache-misses              #   39.101 % of all cache refs      ( +-  0.59% ) [57.16%]
+ 1,611,268,857,206 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
+   105,090,785,190 L1-dcache-load-misses     #    6.52% of all L1-dcache hits    ( +-  0.02% ) [71.42%]
+    23,129,856,296 LLC-loads                                                     ( +-  0.07% ) [57.14%]
+    11,513,050,198 LLC-load-misses           #   49.78% of all LL-cache hits     ( +-  0.08% ) [14.30%]
+ 5,590,038,061,886 instructions              #    0.00  insns per cycle          ( +-  0.04% ) [28.61%]
+    28,096,994,138 cache-references                                              ( +-  0.05% ) [42.89%]
+    14,659,362,663 cache-misses              #   52.174 % of all cache refs      ( +-  0.04% ) [57.16%]
 
-     304.667394787 seconds time elapsed                                          ( +-  0.01% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-c7idw.cnf.gz -t 1' (5 runs):
-
-    46,777,568,459 L1-dcache-loads                                               ( +-  0.03% ) [71.43%]
-     3,467,996,147 L1-dcache-load-misses     #    7.41% of all L1-dcache hits    ( +-  0.03% ) [71.42%]
-     1,894,132,376 LLC-loads                                                     ( +-  0.06% ) [57.14%]
-       299,134,714 LLC-load-misses           #   15.79% of all LL-cache hits     ( +-  0.60% ) [14.30%]
-   166,520,817,073 instructions              #    0.00  insns per cycle          ( +-  0.11% ) [28.60%]
-     2,447,190,751 cache-references                                              ( +-  0.04% ) [42.88%]
-       385,910,049 cache-misses              #   15.770 % of all cache refs      ( +-  0.11% ) [57.16%]
-
-      70.351356679 seconds time elapsed                                          ( +-  0.06% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-c7idw.cnf.gz -t 2' (5 runs):
-
-    95,727,949,803 L1-dcache-loads                                               ( +-  1.74% ) [71.43%]
-     7,256,228,818 L1-dcache-load-misses     #    7.58% of all L1-dcache hits    ( +-  1.81% ) [71.43%]
-     3,932,564,604 LLC-loads                                                     ( +-  1.85% ) [57.15%]
-     1,092,363,274 LLC-load-misses           #   27.78% of all LL-cache hits     ( +-  2.18% ) [14.29%]
-   339,313,442,196 instructions              #    0.00  insns per cycle          ( +-  1.75% ) [28.58%]
-     5,100,962,510 cache-references                                              ( +-  1.85% ) [42.87%]
-     1,444,160,044 cache-misses              #   28.312 % of all cache refs      ( +-  2.13% ) [57.15%]
-
-      81.740390509 seconds time elapsed                                          ( +-  1.86% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-c7idw.cnf.gz -t 3' (5 runs):
-
-   133,235,685,929 L1-dcache-loads                                               ( +-  2.53% ) [71.43%]
-    10,296,439,352 L1-dcache-load-misses     #    7.73% of all L1-dcache hits    ( +-  2.59% ) [71.43%]
-     5,611,189,240 LLC-loads                                                     ( +-  2.61% ) [57.14%]
-     2,012,237,871 LLC-load-misses           #   35.86% of all LL-cache hits     ( +-  2.64% ) [14.29%]
-   472,403,683,723 instructions              #    0.00  insns per cycle          ( +-  2.51% ) [28.58%]
-     7,274,862,885 cache-references                                              ( +-  2.58% ) [42.87%]
-     2,664,638,818 cache-misses              #   36.628 % of all cache refs      ( +-  2.62% ) [57.15%]
-
-      86.340880789 seconds time elapsed                                          ( +-  2.58% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-c7idw.cnf.gz -t 4' (5 runs):
-
-   157,836,064,374 L1-dcache-loads                                               ( +-  3.27% ) [71.43%]
-    11,996,142,379 L1-dcache-load-misses     #    7.60% of all L1-dcache hits    ( +-  3.41% ) [71.42%]
-     6,483,500,358 LLC-loads                                                     ( +-  3.48% ) [57.15%]
-     2,618,960,355 LLC-load-misses           #   40.39% of all LL-cache hits     ( +-  3.53% ) [14.29%]
-   561,942,358,072 instructions              #    0.00  insns per cycle          ( +-  3.26% ) [28.58%]
-     8,487,249,194 cache-references                                              ( +-  3.41% ) [42.86%]
-     3,524,785,967 cache-misses              #   41.530 % of all cache refs      ( +-  3.43% ) [57.14%]
-
-      80.247004240 seconds time elapsed                                          ( +-  3.36% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-c7idw.cnf.gz -t 5' (5 runs):
-
-   168,767,854,355 L1-dcache-loads                                               ( +-  5.12% ) [71.43%]
-    12,858,594,261 L1-dcache-load-misses     #    7.62% of all L1-dcache hits    ( +-  5.27% ) [71.43%]
-     6,924,451,384 LLC-loads                                                     ( +-  5.43% ) [57.15%]
-     3,065,194,272 LLC-load-misses           #   44.27% of all LL-cache hits     ( +-  5.39% ) [14.29%]
-   600,780,523,510 instructions              #    0.00  insns per cycle          ( +-  5.08% ) [28.58%]
-     9,089,998,340 cache-references                                              ( +-  5.32% ) [42.86%]
-     4,140,857,604 cache-misses              #   45.554 % of all cache refs      ( +-  5.31% ) [57.15%]
-
-      73.373820081 seconds time elapsed                                          ( +-  5.23% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-c7idw.cnf.gz -t 6' (5 runs):
-
-   187,653,679,608 L1-dcache-loads                                               ( +-  3.53% ) [71.41%]
-    14,354,800,638 L1-dcache-load-misses     #    7.65% of all L1-dcache hits    ( +-  3.67% ) [71.40%]
-     7,713,756,837 LLC-loads                                                     ( +-  3.73% ) [57.14%]
-     3,670,065,745 LLC-load-misses           #   47.58% of all LL-cache hits     ( +-  3.74% ) [14.30%]
-   668,561,582,383 instructions              #    0.00  insns per cycle          ( +-  3.45% ) [28.61%]
-    10,145,183,261 cache-references                                              ( +-  3.65% ) [42.88%]
-     4,971,053,181 cache-misses              #   48.999 % of all cache refs      ( +-  3.59% ) [57.15%]
-
-      70.752930060 seconds time elapsed                                          ( +-  3.58% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-g10bid_i.cnf.gz -t 1' (5 runs):
-
-   180,050,384,099 L1-dcache-loads                                               ( +-  0.07% ) [71.44%]
-    14,304,523,436 L1-dcache-load-misses     #    7.94% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
-     8,239,656,076 LLC-loads                                                     ( +-  0.06% ) [57.15%]
-     2,050,191,735 LLC-load-misses           #   24.88% of all LL-cache hits     ( +-  0.07% ) [14.29%]
-   634,519,747,553 instructions              #    0.00  insns per cycle          ( +-  0.09% ) [28.59%]
-    10,417,861,678 cache-references                                              ( +-  0.02% ) [42.87%]
-     2,633,433,206 cache-misses              #   25.278 % of all cache refs      ( +-  0.06% ) [57.16%]
-
-     300.333349859 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-g10bid_i.cnf.gz -t 2' (5 runs):
-
-   306,374,377,733 L1-dcache-loads                                               ( +-  0.16% ) [71.43%]
-    24,071,489,174 L1-dcache-load-misses     #    7.86% of all L1-dcache hits    ( +-  0.19% ) [71.43%]
-    13,593,406,870 LLC-loads                                                     ( +-  0.15% ) [57.15%]
-     5,557,138,889 LLC-load-misses           #   40.88% of all LL-cache hits     ( +-  0.11% ) [14.29%]
- 1,082,293,538,099 instructions              #    0.00  insns per cycle          ( +-  0.14% ) [28.58%]
-    17,623,997,722 cache-references                                              ( +-  0.14% ) [42.87%]
-     7,386,430,530 cache-misses              #   41.911 % of all cache refs      ( +-  0.12% ) [57.15%]
-
-     300.351085338 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-g10bid_i.cnf.gz -t 3' (5 runs):
-
-   409,529,251,237 L1-dcache-loads                                               ( +-  0.19% ) [71.43%]
-    32,808,202,315 L1-dcache-load-misses     #    8.01% of all L1-dcache hits    ( +-  0.06% ) [71.43%]
-    18,742,142,594 LLC-loads                                                     ( +-  0.12% ) [57.15%]
-     9,008,832,584 LLC-load-misses           #   48.07% of all LL-cache hits     ( +-  0.19% ) [14.29%]
- 1,442,598,913,995 instructions              #    0.00  insns per cycle          ( +-  0.20% ) [28.58%]
-    24,162,340,585 cache-references                                              ( +-  0.06% ) [42.86%]
-    11,909,777,121 cache-misses              #   49.291 % of all cache refs      ( +-  0.20% ) [57.15%]
-
-     300.407405734 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-g10bid_i.cnf.gz -t 4' (5 runs):
-
-   522,281,574,268 L1-dcache-loads                                               ( +-  0.10% ) [71.43%]
-    41,686,855,469 L1-dcache-load-misses     #    7.98% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
-    23,630,904,357 LLC-loads                                                     ( +-  0.07% ) [57.15%]
-    12,367,238,517 LLC-load-misses           #   52.34% of all LL-cache hits     ( +-  0.08% ) [14.29%]
- 1,846,589,446,130 instructions              #    0.00  insns per cycle          ( +-  0.10% ) [28.58%]
-    30,675,097,046 cache-references                                              ( +-  0.05% ) [42.86%]
-    16,502,722,621 cache-misses              #   53.798 % of all cache refs      ( +-  0.06% ) [57.14%]
-
-     300.379162904 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-g10bid_i.cnf.gz -t 5' (5 runs):
-
-   613,845,391,522 L1-dcache-loads                                               ( +-  0.10% ) [71.43%]
-    49,321,531,090 L1-dcache-load-misses     #    8.03% of all L1-dcache hits    ( +-  0.03% ) [71.43%]
-    27,960,310,579 LLC-loads                                                     ( +-  0.06% ) [57.14%]
-    15,572,804,273 LLC-load-misses           #   55.70% of all LL-cache hits     ( +-  0.03% ) [14.29%]
- 2,170,388,334,129 instructions              #    0.00  insns per cycle          ( +-  0.08% ) [28.58%]
-    36,260,962,136 cache-references                                              ( +-  0.03% ) [42.86%]
-    20,758,964,202 cache-misses              #   57.249 % of all cache refs      ( +-  0.09% ) [57.15%]
-
-     300.333948981 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/manol-pipe-g10bid_i.cnf.gz -t 6' (5 runs):
-
-   720,750,291,046 L1-dcache-loads                                               ( +-  0.07% ) [71.42%]
-    57,917,595,797 L1-dcache-load-misses     #    8.04% of all L1-dcache hits    ( +-  0.04% ) [71.42%]
-    32,791,124,511 LLC-loads                                                     ( +-  0.11% ) [57.16%]
-    19,116,257,203 LLC-load-misses           #   58.30% of all LL-cache hits     ( +-  0.03% ) [14.29%]
- 2,549,626,572,459 instructions              #    0.00  insns per cycle          ( +-  0.05% ) [28.59%]
-    42,559,405,869 cache-references                                              ( +-  0.04% ) [42.87%]
-    25,532,462,126 cache-misses              #   59.993 % of all cache refs      ( +-  0.09% ) [57.14%]
-
-     304.699876108 seconds time elapsed                                          ( +-  0.01% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-md5-47-4.cnf.gz -t 1' (5 runs):
-
-   166,948,815,208 L1-dcache-loads                                               ( +-  0.02% ) [71.44%]
-    14,870,703,078 L1-dcache-load-misses     #    8.91% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
-     8,973,162,664 LLC-loads                                                     ( +-  0.04% ) [57.15%]
-     1,192,538,890 LLC-load-misses           #   13.29% of all LL-cache hits     ( +-  0.39% ) [14.29%]
-   585,607,510,582 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.59%]
-    10,471,902,821 cache-references                                              ( +-  0.07% ) [42.87%]
-     1,327,666,142 cache-misses              #   12.678 % of all cache refs      ( +-  0.27% ) [57.16%]
-
-     300.330040433 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-md5-47-4.cnf.gz -t 2' (5 runs):
-
-   303,227,309,526 L1-dcache-loads                                               ( +-  0.10% ) [71.43%]
-    25,746,442,472 L1-dcache-load-misses     #    8.49% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
-    15,258,180,596 LLC-loads                                                     ( +-  0.07% ) [57.14%]
-     3,499,338,780 LLC-load-misses           #   22.93% of all LL-cache hits     ( +-  0.21% ) [14.29%]
- 1,068,680,142,650 instructions              #    0.00  insns per cycle          ( +-  0.10% ) [28.58%]
-    18,339,277,658 cache-references                                              ( +-  0.06% ) [42.87%]
-     4,025,635,734 cache-misses              #   21.951 % of all cache refs      ( +-  0.21% ) [57.15%]
-
-     300.343773347 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-md5-47-4.cnf.gz -t 3' (5 runs):
-
-   403,026,876,535 L1-dcache-loads                                               ( +-  0.20% ) [71.43%]
-    34,578,949,918 L1-dcache-load-misses     #    8.58% of all L1-dcache hits    ( +-  0.07% ) [71.43%]
-    20,573,248,378 LLC-loads                                                     ( +-  0.06% ) [57.15%]
-     6,475,087,759 LLC-load-misses           #   31.47% of all LL-cache hits     ( +-  0.22% ) [14.29%]
- 1,419,381,270,417 instructions              #    0.00  insns per cycle          ( +-  0.20% ) [28.58%]
-    24,845,895,032 cache-references                                              ( +-  0.04% ) [42.86%]
-     7,531,392,837 cache-misses              #   30.312 % of all cache refs      ( +-  0.22% ) [57.15%]
-
-     300.399662513 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-md5-47-4.cnf.gz -t 4' (5 runs):
-
-   513,877,015,242 L1-dcache-loads                                               ( +-  0.17% ) [71.43%]
-    43,456,788,975 L1-dcache-load-misses     #    8.46% of all L1-dcache hits    ( +-  0.08% ) [71.43%]
-    25,482,070,448 LLC-loads                                                     ( +-  0.03% ) [57.15%]
-     9,324,019,405 LLC-load-misses           #   36.59% of all LL-cache hits     ( +-  0.15% ) [14.29%]
- 1,814,585,466,287 instructions              #    0.00  insns per cycle          ( +-  0.17% ) [28.58%]
-    31,135,282,829 cache-references                                              ( +-  0.04% ) [42.86%]
-    11,031,091,520 cache-misses              #   35.430 % of all cache refs      ( +-  0.14% ) [57.15%]
-
-     300.372596172 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-md5-47-4.cnf.gz -t 5' (5 runs):
-
-   594,037,303,958 L1-dcache-loads                                               ( +-  0.21% ) [71.43%]
-    50,356,572,411 L1-dcache-load-misses     #    8.48% of all L1-dcache hits    ( +-  0.07% ) [71.43%]
-    29,377,383,431 LLC-loads                                                     ( +-  0.06% ) [57.15%]
-    12,192,628,408 LLC-load-misses           #   41.50% of all LL-cache hits     ( +-  0.13% ) [14.29%]
- 2,099,545,950,244 instructions              #    0.00  insns per cycle          ( +-  0.20% ) [28.58%]
-    35,986,825,707 cache-references                                              ( +-  0.02% ) [42.86%]
-    14,539,234,381 cache-misses              #   40.402 % of all cache refs      ( +-  0.10% ) [57.15%]
-
-     300.326697792 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-md5-47-4.cnf.gz -t 6' (5 runs):
-
-   693,210,715,103 L1-dcache-loads                                               ( +-  0.12% ) [71.44%]
-    58,788,909,951 L1-dcache-load-misses     #    8.48% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
-    34,132,004,049 LLC-loads                                                     ( +-  0.05% ) [57.15%]
-    15,606,591,465 LLC-load-misses           #   45.72% of all LL-cache hits     ( +-  0.11% ) [14.29%]
- 2,448,087,051,248 instructions              #    0.00  insns per cycle          ( +-  0.12% ) [28.60%]
-    41,934,996,808 cache-references                                              ( +-  0.06% ) [42.88%]
-    18,696,898,373 cache-misses              #   44.585 % of all cache refs      ( +-  0.11% ) [57.16%]
-
-     304.660815404 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-sha0-36-4.cnf.gz -t 1' (5 runs):
-
-   173,186,661,728 L1-dcache-loads                                               ( +-  0.06% ) [71.44%]
-    14,698,656,685 L1-dcache-load-misses     #    8.49% of all L1-dcache hits    ( +-  0.06% ) [71.43%]
-     9,043,833,327 LLC-loads                                                     ( +-  0.04% ) [57.15%]
-     1,169,199,814 LLC-load-misses           #   12.93% of all LL-cache hits     ( +-  0.53% ) [14.29%]
-   598,809,384,126 instructions              #    0.00  insns per cycle          ( +-  0.07% ) [28.59%]
-    10,203,383,366 cache-references                                              ( +-  0.10% ) [42.88%]
-     1,275,624,001 cache-misses              #   12.502 % of all cache refs      ( +-  0.47% ) [57.16%]
-
-     300.326425820 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-sha0-36-4.cnf.gz -t 2' (5 runs):
-
-   323,944,720,590 L1-dcache-loads                                               ( +-  0.17% ) [71.43%]
-    26,195,928,962 L1-dcache-load-misses     #    8.09% of all L1-dcache hits    ( +-  0.08% ) [71.43%]
-    15,695,774,889 LLC-loads                                                     ( +-  0.13% ) [57.15%]
-     3,269,900,618 LLC-load-misses           #   20.83% of all LL-cache hits     ( +-  0.35% ) [14.29%]
- 1,127,300,795,978 instructions              #    0.00  insns per cycle          ( +-  0.16% ) [28.58%]
-    18,332,545,167 cache-references                                              ( +-  0.10% ) [42.86%]
-     3,674,352,230 cache-misses              #   20.043 % of all cache refs      ( +-  0.24% ) [57.15%]
-
-     300.345282674 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-sha0-36-4.cnf.gz -t 3' (5 runs):
-
-   349,998,563,071 L1-dcache-loads                                               ( +- 22.28% ) [71.43%]
-    29,133,515,985 L1-dcache-load-misses     #    8.32% of all L1-dcache hits    ( +- 22.42% ) [71.43%]
-    17,573,806,376 LLC-loads                                                     ( +- 22.74% ) [57.15%]
-     5,214,235,018 LLC-load-misses           #   29.67% of all LL-cache hits     ( +- 23.39% ) [14.29%]
- 1,217,922,205,675 instructions              #    0.00  insns per cycle          ( +- 22.22% ) [28.58%]
-    20,510,036,769 cache-references                                              ( +- 22.57% ) [42.86%]
-     5,874,148,334 cache-misses              #   28.640 % of all cache refs      ( +- 23.28% ) [57.15%]
-
-     245.138580580 seconds time elapsed                                          ( +- 22.54% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-sha0-36-4.cnf.gz -t 4' (5 runs):
-
-   545,515,914,485 L1-dcache-loads                                               ( +-  2.02% ) [71.43%]
-    44,003,650,439 L1-dcache-load-misses     #    8.07% of all L1-dcache hits    ( +-  2.11% ) [71.43%]
-    26,047,388,968 LLC-loads                                                     ( +-  2.24% ) [57.14%]
-     8,955,786,962 LLC-load-misses           #   34.38% of all LL-cache hits     ( +-  2.40% ) [14.29%]
- 1,901,755,745,987 instructions              #    0.00  insns per cycle          ( +-  2.00% ) [28.58%]
-    30,714,489,450 cache-references                                              ( +-  2.18% ) [42.86%]
-    10,235,782,595 cache-misses              #   33.326 % of all cache refs      ( +-  2.37% ) [57.15%]
-
-     293.968699228 seconds time elapsed                                          ( +-  2.18% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-sha0-36-4.cnf.gz -t 5' (5 runs):
-
-   640,250,409,420 L1-dcache-loads                                               ( +-  0.11% ) [71.43%]
-    52,261,817,173 L1-dcache-load-misses     #    8.16% of all L1-dcache hits    ( +-  0.10% ) [71.43%]
-    30,870,866,886 LLC-loads                                                     ( +-  0.08% ) [57.14%]
-    12,301,926,288 LLC-load-misses           #   39.85% of all LL-cache hits     ( +-  0.19% ) [14.29%]
- 2,230,798,700,144 instructions              #    0.00  insns per cycle          ( +-  0.11% ) [28.58%]
-    36,424,957,745 cache-references                                              ( +-  0.05% ) [42.86%]
-    14,116,678,668 cache-misses              #   38.756 % of all cache refs      ( +-  0.19% ) [57.15%]
-
-     300.331006906 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/mizh-sha0-36-4.cnf.gz -t 6' (5 runs):
-
-   698,821,619,110 L1-dcache-loads                                               ( +-  6.14% ) [71.43%]
-    57,140,826,256 L1-dcache-load-misses     #    8.18% of all L1-dcache hits    ( +-  6.45% ) [71.42%]
-    33,515,144,885 LLC-loads                                                     ( +-  6.68% ) [57.14%]
-    14,761,905,487 LLC-load-misses           #   44.05% of all LL-cache hits     ( +-  7.13% ) [14.30%]
- 2,435,390,688,273 instructions              #    0.00  insns per cycle          ( +-  6.11% ) [28.61%]
-    39,613,033,709 cache-references                                              ( +-  6.52% ) [42.88%]
-    17,034,407,478 cache-misses              #   43.002 % of all cache refs      ( +-  7.03% ) [57.15%]
-
-     284.807945731 seconds time elapsed                                          ( +-  6.57% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/narai-vpn-10s.cnf.gz -t 1' (5 runs):
-
-    80,115,020,481 L1-dcache-loads                                               ( +-  0.57% ) [71.44%]
-    12,632,695,629 L1-dcache-load-misses     #   15.77% of all L1-dcache hits    ( +-  0.57% ) [71.43%]
-     7,723,926,223 LLC-loads                                                     ( +-  0.83% ) [57.15%]
-     3,984,411,314 LLC-load-misses           #   51.59% of all LL-cache hits     ( +-  0.61% ) [14.29%]
-   288,051,386,124 instructions              #    0.00  insns per cycle          ( +-  0.54% ) [28.59%]
-    10,024,806,789 cache-references                                              ( +-  0.74% ) [42.87%]
-     5,760,554,580 cache-misses              #   57.463 % of all cache refs      ( +-  0.59% ) [57.16%]
-
-     300.401699927 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/narai-vpn-10s.cnf.gz -t 2' (5 runs):
-
-    45,334,168,627 L1-dcache-loads                                               ( +-  2.02% ) [71.44%]
-     6,893,206,949 L1-dcache-load-misses     #   15.21% of all L1-dcache hits    ( +-  1.92% ) [71.43%]
-     4,310,491,041 LLC-loads                                                     ( +-  2.13% ) [57.14%]
-     2,519,149,562 LLC-load-misses           #   58.44% of all LL-cache hits     ( +-  2.18% ) [14.30%]
-   164,037,833,312 instructions              #    0.00  insns per cycle          ( +-  1.91% ) [28.59%]
-     5,509,866,939 cache-references                                              ( +-  2.00% ) [42.88%]
-     3,500,556,950 cache-misses              #   63.533 % of all cache refs      ( +-  2.01% ) [57.16%]
-
-      96.533941160 seconds time elapsed                                          ( +-  2.07% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/narai-vpn-10s.cnf.gz -t 3' (5 runs):
-
-    53,886,048,514 L1-dcache-loads                                               ( +-  3.15% ) [71.43%]
-     8,219,928,784 L1-dcache-load-misses     #   15.25% of all L1-dcache hits    ( +-  3.34% ) [71.43%]
-     5,137,460,565 LLC-loads                                                     ( +-  3.24% ) [57.15%]
-     3,238,516,160 LLC-load-misses           #   63.04% of all LL-cache hits     ( +-  3.25% ) [14.29%]
-   194,473,584,587 instructions              #    0.00  insns per cycle          ( +-  3.10% ) [28.58%]
-     6,585,698,309 cache-references                                              ( +-  3.24% ) [42.87%]
-     4,477,496,198 cache-misses              #   67.988 % of all cache refs      ( +-  3.32% ) [57.15%]
-
-      82.382917948 seconds time elapsed                                          ( +-  3.03% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/narai-vpn-10s.cnf.gz -t 4' (5 runs):
-
-    56,486,316,744 L1-dcache-loads                                               ( +-  5.73% ) [71.43%]
-     8,592,467,006 L1-dcache-load-misses     #   15.21% of all L1-dcache hits    ( +-  5.99% ) [71.43%]
-     5,403,934,333 LLC-loads                                                     ( +-  6.07% ) [57.15%]
-     3,561,680,396 LLC-load-misses           #   65.91% of all LL-cache hits     ( +-  6.10% ) [14.29%]
-   203,759,884,936 instructions              #    0.00  insns per cycle          ( +-  5.63% ) [28.58%]
-     6,897,603,195 cache-references                                              ( +-  6.06% ) [42.87%]
-     4,880,615,545 cache-misses              #   70.758 % of all cache refs      ( +-  6.07% ) [57.15%]
-
-      69.853188057 seconds time elapsed                                          ( +-  5.48% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/narai-vpn-10s.cnf.gz -t 5' (5 runs):
-
-    58,383,287,143 L1-dcache-loads                                               ( +-  2.68% ) [71.43%]
-     8,898,739,425 L1-dcache-load-misses     #   15.24% of all L1-dcache hits    ( +-  2.76% ) [71.42%]
-     5,556,469,486 LLC-loads                                                     ( +-  2.98% ) [57.15%]
-     3,751,293,901 LLC-load-misses           #   67.51% of all LL-cache hits     ( +-  3.03% ) [14.29%]
-   210,636,444,500 instructions              #    0.00  insns per cycle          ( +-  2.63% ) [28.58%]
-     7,117,782,503 cache-references                                              ( +-  2.83% ) [42.86%]
-     5,156,807,034 cache-misses              #   72.450 % of all cache refs      ( +-  2.80% ) [57.14%]
-
-      62.249805232 seconds time elapsed                                          ( +-  2.89% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/narai-vpn-10s.cnf.gz -t 6' (5 runs):
-
-    61,769,649,438 L1-dcache-loads                                               ( +-  4.85% ) [71.41%]
-     9,420,275,485 L1-dcache-load-misses     #   15.25% of all L1-dcache hits    ( +-  5.13% ) [71.40%]
-     5,867,635,523 LLC-loads                                                     ( +-  4.99% ) [57.15%]
-     4,029,291,334 LLC-load-misses           #   68.67% of all LL-cache hits     ( +-  4.93% ) [14.30%]
-   222,597,018,318 instructions              #    0.00  insns per cycle          ( +-  4.80% ) [28.60%]
-     7,518,532,032 cache-references                                              ( +-  5.10% ) [42.87%]
-     5,534,652,245 cache-misses              #   73.613 % of all cache refs      ( +-  5.06% ) [57.13%]
-
-      57.734399618 seconds time elapsed                                          ( +-  4.21% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/post-c32s-gcdm16-22.cnf.gz -t 1' (5 runs):
-
-   286,335,255,630 L1-dcache-loads                                               ( +-  0.07% ) [71.44%]
-    12,598,076,962 L1-dcache-load-misses     #    4.40% of all L1-dcache hits    ( +-  0.07% ) [71.43%]
-     4,755,551,347 LLC-loads                                                     ( +-  0.11% ) [57.15%]
-       471,003,663 LLC-load-misses           #    9.90% of all LL-cache hits     ( +-  0.72% ) [14.29%]
- 1,028,354,687,665 instructions              #    0.00  insns per cycle          ( +-  0.08% ) [28.58%]
-     5,738,793,218 cache-references                                              ( +-  0.08% ) [42.87%]
-       558,473,328 cache-misses              #    9.732 % of all cache refs      ( +-  0.88% ) [57.15%]
-
-     300.325545695 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/post-c32s-gcdm16-22.cnf.gz -t 2' (5 runs):
-
-   477,419,754,510 L1-dcache-loads                                               ( +-  0.50% ) [71.43%]
-    22,936,853,084 L1-dcache-load-misses     #    4.80% of all L1-dcache hits    ( +-  0.28% ) [71.43%]
-    10,852,722,730 LLC-loads                                                     ( +-  0.74% ) [57.15%]
-     2,243,055,143 LLC-load-misses           #   20.67% of all LL-cache hits     ( +-  0.81% ) [14.29%]
- 1,692,485,176,918 instructions              #    0.00  insns per cycle          ( +-  0.53% ) [28.58%]
-    13,527,512,330 cache-references                                              ( +-  0.74% ) [42.86%]
-     2,732,659,179 cache-misses              #   20.201 % of all cache refs      ( +-  0.78% ) [57.15%]
-
-     300.341758383 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/post-c32s-gcdm16-22.cnf.gz -t 3' (5 runs):
-
-   581,410,327,743 L1-dcache-loads                                               ( +-  0.61% ) [71.43%]
-    30,434,593,450 L1-dcache-load-misses     #    5.23% of all L1-dcache hits    ( +-  0.12% ) [71.43%]
-    16,124,556,081 LLC-loads                                                     ( +-  0.60% ) [57.14%]
-     5,193,932,400 LLC-load-misses           #   32.21% of all LL-cache hits     ( +-  0.62% ) [14.29%]
- 2,052,290,031,705 instructions              #    0.00  insns per cycle          ( +-  0.63% ) [28.58%]
-    20,228,073,735 cache-references                                              ( +-  0.63% ) [42.86%]
-     6,439,793,083 cache-misses              #   31.836 % of all cache refs      ( +-  0.65% ) [57.15%]
-
-     300.398673470 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/post-c32s-gcdm16-22.cnf.gz -t 4' (5 runs):
-
-   737,090,488,491 L1-dcache-loads                                               ( +-  0.41% ) [71.43%]
-    37,903,394,309 L1-dcache-load-misses     #    5.14% of all L1-dcache hits    ( +-  0.10% ) [71.43%]
-    19,874,263,077 LLC-loads                                                     ( +-  0.38% ) [57.15%]
-     7,756,686,546 LLC-load-misses           #   39.03% of all LL-cache hits     ( +-  0.54% ) [14.29%]
- 2,605,991,215,970 instructions              #    0.00  insns per cycle          ( +-  0.47% ) [28.58%]
-    25,118,935,486 cache-references                                              ( +-  0.40% ) [42.86%]
-     9,753,728,632 cache-misses              #   38.830 % of all cache refs      ( +-  0.50% ) [57.14%]
-
-     300.371568786 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/post-c32s-gcdm16-22.cnf.gz -t 5' (5 runs):
-
-   847,361,825,425 L1-dcache-loads                                               ( +-  0.30% ) [71.43%]
-    43,756,944,355 L1-dcache-load-misses     #    5.16% of all L1-dcache hits    ( +-  0.12% ) [71.43%]
-    22,978,631,166 LLC-loads                                                     ( +-  0.18% ) [57.15%]
-    10,385,375,794 LLC-load-misses           #   45.20% of all LL-cache hits     ( +-  0.38% ) [14.29%]
- 2,992,619,080,484 instructions              #    0.00  insns per cycle          ( +-  0.32% ) [28.58%]
-    29,040,383,450 cache-references                                              ( +-  0.17% ) [42.86%]
-    13,113,681,840 cache-misses              #   45.157 % of all cache refs      ( +-  0.40% ) [57.15%]
-
-     300.325024356 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/post-c32s-gcdm16-22.cnf.gz -t 6' (5 runs):
-
-   995,452,200,806 L1-dcache-loads                                               ( +-  0.63% ) [71.43%]
-    51,509,981,730 L1-dcache-load-misses     #    5.17% of all L1-dcache hits    ( +-  0.15% ) [71.43%]
-    26,897,562,130 LLC-loads                                                     ( +-  0.48% ) [57.15%]
-    13,418,925,700 LLC-load-misses           #   49.89% of all LL-cache hits     ( +-  0.39% ) [14.29%]
- 3,512,182,543,990 instructions              #    0.00  insns per cycle          ( +-  0.65% ) [28.60%]
-    33,981,045,145 cache-references                                              ( +-  0.52% ) [42.88%]
-    16,996,336,270 cache-misses              #   50.017 % of all cache refs      ( +-  0.41% ) [57.16%]
-
-     304.701124431 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/schup-l2s-motst-2-k315.cnf.gz -t 1' (5 runs):
-
-   250,095,031,524 L1-dcache-loads                                               ( +-  0.04% ) [71.44%]
-    18,367,873,400 L1-dcache-load-misses     #    7.34% of all L1-dcache hits    ( +-  0.04% ) [71.43%]
-     7,623,825,082 LLC-loads                                                     ( +-  0.08% ) [57.15%]
-     2,071,741,281 LLC-load-misses           #   27.17% of all LL-cache hits     ( +-  0.23% ) [14.29%]
-   868,413,431,247 instructions              #    0.00  insns per cycle          ( +-  0.06% ) [28.59%]
-     8,746,109,680 cache-references                                              ( +-  0.06% ) [42.87%]
-     2,684,206,990 cache-misses              #   30.690 % of all cache refs      ( +-  0.07% ) [57.16%]
-
-     300.340017114 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/schup-l2s-motst-2-k315.cnf.gz -t 2' (5 runs):
-
-   434,733,115,815 L1-dcache-loads                                               ( +-  1.54% ) [71.43%]
-    31,184,901,426 L1-dcache-load-misses     #    7.17% of all L1-dcache hits    ( +-  2.43% ) [71.43%]
-    12,300,617,913 LLC-loads                                                     ( +-  1.71% ) [57.15%]
-     4,927,972,114 LLC-load-misses           #   40.06% of all LL-cache hits     ( +-  1.72% ) [14.29%]
- 1,527,884,674,673 instructions              #    0.00  insns per cycle          ( +-  1.37% ) [28.58%]
-    14,710,198,057 cache-references                                              ( +-  1.29% ) [42.87%]
-     6,448,725,156 cache-misses              #   43.838 % of all cache refs      ( +-  1.68% ) [57.15%]
-
-     300.360992468 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/schup-l2s-motst-2-k315.cnf.gz -t 3' (5 runs):
-
-   548,064,682,316 L1-dcache-loads                                               ( +-  2.92% ) [71.43%]
-    39,107,817,438 L1-dcache-load-misses     #    7.14% of all L1-dcache hits    ( +-  3.29% ) [71.43%]
-    16,642,422,414 LLC-loads                                                     ( +-  2.82% ) [57.15%]
-     8,448,649,918 LLC-load-misses           #   50.77% of all LL-cache hits     ( +-  3.21% ) [14.29%]
- 1,930,755,835,933 instructions              #    0.00  insns per cycle          ( +-  2.92% ) [28.58%]
-    20,443,670,621 cache-references                                              ( +-  1.82% ) [42.86%]
-    11,099,587,174 cache-misses              #   54.294 % of all cache refs      ( +-  3.25% ) [57.15%]
-
-     300.422362244 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/schup-l2s-motst-2-k315.cnf.gz -t 4' (5 runs):
-
-   712,643,715,929 L1-dcache-loads                                               ( +-  1.84% ) [71.43%]
-    50,825,995,975 L1-dcache-load-misses     #    7.13% of all L1-dcache hits    ( +-  2.19% ) [71.43%]
-    21,172,570,866 LLC-loads                                                     ( +-  1.65% ) [57.15%]
-    11,331,988,156 LLC-load-misses           #   53.52% of all LL-cache hits     ( +-  1.47% ) [14.29%]
- 2,511,704,622,151 instructions              #    0.00  insns per cycle          ( +-  1.76% ) [28.58%]
-    26,067,517,686 cache-references                                              ( +-  1.13% ) [42.86%]
-    14,858,909,914 cache-misses              #   57.002 % of all cache refs      ( +-  1.50% ) [57.15%]
-
-     300.398469066 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/schup-l2s-motst-2-k315.cnf.gz -t 5' (5 runs):
-
-   852,227,658,865 L1-dcache-loads                                               ( +-  2.61% ) [71.43%]
-    61,407,992,808 L1-dcache-load-misses     #    7.21% of all L1-dcache hits    ( +-  3.12% ) [71.43%]
-    25,532,330,659 LLC-loads                                                     ( +-  2.57% ) [57.15%]
-    14,103,030,342 LLC-load-misses           #   55.24% of all LL-cache hits     ( +-  2.66% ) [14.29%]
- 2,999,656,419,699 instructions              #    0.00  insns per cycle          ( +-  2.48% ) [28.58%]
-    31,203,237,384 cache-references                                              ( +-  1.78% ) [42.86%]
-    18,335,420,906 cache-misses              #   58.761 % of all cache refs      ( +-  2.38% ) [57.15%]
-
-     300.357199183 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/schup-l2s-motst-2-k315.cnf.gz -t 6' (5 runs):
-
- 1,034,092,720,199 L1-dcache-loads                                               ( +-  1.63% ) [71.41%]
-    75,090,227,966 L1-dcache-load-misses     #    7.26% of all L1-dcache hits    ( +-  2.09% ) [71.40%]
-    30,249,877,500 LLC-loads                                                     ( +-  1.49% ) [57.14%]
-    16,704,293,273 LLC-load-misses           #   55.22% of all LL-cache hits     ( +-  1.48% ) [14.31%]
- 3,628,127,143,707 instructions              #    0.00  insns per cycle          ( +-  1.59% ) [28.61%]
-    37,168,248,897 cache-references                                              ( +-  1.06% ) [42.88%]
-    21,941,523,865 cache-misses              #   59.033 % of all cache refs      ( +-  1.55% ) [57.14%]
-
-     304.805700823 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02b-r4b1k1.2.cnf.gz -t 1' (5 runs):
-
-   146,741,600,442 L1-dcache-loads                                               ( +-  0.10% ) [71.44%]
-    14,785,020,410 L1-dcache-load-misses     #   10.08% of all L1-dcache hits    ( +-  0.12% ) [71.43%]
-    11,172,596,164 LLC-loads                                                     ( +-  0.08% ) [57.15%]
-       424,608,350 LLC-load-misses           #    3.80% of all LL-cache hits     ( +-  1.48% ) [14.29%]
-   487,571,477,653 instructions              #    0.00  insns per cycle          ( +-  0.11% ) [28.59%]
-    11,482,505,457 cache-references                                              ( +-  0.07% ) [42.87%]
-       430,694,597 cache-misses              #    3.751 % of all cache refs      ( +-  1.49% ) [57.16%]
-
-     300.301203247 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02b-r4b1k1.2.cnf.gz -t 2' (5 runs):
-
-   280,249,998,363 L1-dcache-loads                                               ( +-  2.52% ) [71.43%]
-    26,171,251,015 L1-dcache-load-misses     #    9.34% of all L1-dcache hits    ( +-  2.85% ) [71.43%]
-    19,208,485,358 LLC-loads                                                     ( +-  2.94% ) [57.15%]
-     1,900,888,016 LLC-load-misses           #    9.90% of all LL-cache hits     ( +-  5.02% ) [14.29%]
-   946,489,934,794 instructions              #    0.00  insns per cycle          ( +-  2.48% ) [28.58%]
-    19,931,402,174 cache-references                                              ( +-  2.94% ) [42.86%]
-     1,933,593,197 cache-misses              #    9.701 % of all cache refs      ( +-  5.02% ) [57.15%]
-
-     291.626623739 seconds time elapsed                                          ( +-  2.99% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02b-r4b1k1.2.cnf.gz -t 3' (5 runs):
-
-   321,395,091,473 L1-dcache-loads                                               ( +- 14.24% ) [71.43%]
-    29,951,989,114 L1-dcache-load-misses     #    9.32% of all L1-dcache hits    ( +- 15.56% ) [71.43%]
-    22,006,872,857 LLC-loads                                                     ( +- 16.07% ) [57.14%]
-     4,885,977,005 LLC-load-misses           #   22.20% of all LL-cache hits     ( +- 20.03% ) [14.29%]
- 1,079,026,275,677 instructions              #    0.00  insns per cycle          ( +- 14.25% ) [28.58%]
-    22,881,478,216 cache-references                                              ( +- 15.98% ) [42.86%]
-     4,970,323,371 cache-misses              #   21.722 % of all cache refs      ( +- 20.03% ) [57.15%]
-
-     258.495877915 seconds time elapsed                                          ( +- 16.21% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02b-r4b1k1.2.cnf.gz -t 4' (5 runs):
-
-   267,366,942,789 L1-dcache-loads                                               ( +- 30.85% ) [71.43%]
-    23,392,127,639 L1-dcache-load-misses     #    8.75% of all L1-dcache hits    ( +- 34.79% ) [71.43%]
-    16,748,030,090 LLC-loads                                                     ( +- 36.31% ) [57.14%]
-     4,320,082,651 LLC-load-misses           #   25.79% of all LL-cache hits     ( +- 45.73% ) [14.29%]
-   899,107,030,831 instructions              #    0.00  insns per cycle          ( +- 30.81% ) [28.58%]
-    17,534,007,061 cache-references                                              ( +- 36.02% ) [42.86%]
-     4,408,189,608 cache-misses              #   25.141 % of all cache refs      ( +- 45.57% ) [57.15%]
-
-     159.178099837 seconds time elapsed                                          ( +- 36.39% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02b-r4b1k1.2.cnf.gz -t 5' (5 runs):
-
-   301,400,362,435 L1-dcache-loads                                               ( +- 24.76% ) [71.43%]
-    26,468,174,238 L1-dcache-load-misses     #    8.78% of all L1-dcache hits    ( +- 28.33% ) [71.43%]
-    19,018,290,293 LLC-loads                                                     ( +- 29.79% ) [57.14%]
-     6,233,529,462 LLC-load-misses           #   32.78% of all LL-cache hits     ( +- 37.53% ) [14.29%]
- 1,011,544,761,116 instructions              #    0.00  insns per cycle          ( +- 24.75% ) [28.58%]
-    19,946,075,667 cache-references                                              ( +- 29.50% ) [42.86%]
-     6,389,291,822 cache-misses              #   32.033 % of all cache refs      ( +- 37.34% ) [57.15%]
-
-     158.913514189 seconds time elapsed                                          ( +- 30.12% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02b-r4b1k1.2.cnf.gz -t 6' (5 runs):
-
-   493,220,061,594 L1-dcache-loads                                               ( +- 13.45% ) [71.42%]
-    45,727,016,407 L1-dcache-load-misses     #    9.27% of all L1-dcache hits    ( +- 14.88% ) [71.42%]
-    33,527,803,416 LLC-loads                                                     ( +- 15.38% ) [57.17%]
-    14,305,534,661 LLC-load-misses           #   42.67% of all LL-cache hits     ( +- 17.72% ) [14.29%]
- 1,653,455,001,128 instructions              #    0.00  insns per cycle          ( +- 13.44% ) [28.59%]
-    35,027,383,492 cache-references                                              ( +- 15.28% ) [42.86%]
-    14,675,957,146 cache-misses              #   41.899 % of all cache refs      ( +- 17.70% ) [57.14%]
-
-     249.031505638 seconds time elapsed                                          ( +- 15.62% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02-f2clk-50.cnf.gz -t 1' (5 runs):
-
-   236,309,368,774 L1-dcache-loads                                               ( +-  0.06% ) [71.44%]
-    16,793,330,060 L1-dcache-load-misses     #    7.11% of all L1-dcache hits    ( +-  0.07% ) [71.43%]
-     7,378,611,375 LLC-loads                                                     ( +-  0.08% ) [57.15%]
-       396,483,221 LLC-load-misses           #    5.37% of all LL-cache hits     ( +-  0.50% ) [14.29%]
-   826,056,677,134 instructions              #    0.00  insns per cycle          ( +-  0.10% ) [28.59%]
-     8,541,779,559 cache-references                                              ( +-  0.09% ) [42.87%]
-       442,128,723 cache-misses              #    5.176 % of all cache refs      ( +-  1.05% ) [57.16%]
-
-     300.320619725 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02-f2clk-50.cnf.gz -t 2' (5 runs):
-
-   441,382,730,134 L1-dcache-loads                                               ( +-  1.26% ) [71.43%]
-    32,128,673,003 L1-dcache-load-misses     #    7.28% of all L1-dcache hits    ( +-  0.39% ) [71.43%]
-    14,186,982,006 LLC-loads                                                     ( +-  1.17% ) [57.15%]
-     1,546,198,773 LLC-load-misses           #   10.90% of all LL-cache hits     ( +-  1.57% ) [14.29%]
- 1,546,751,606,779 instructions              #    0.00  insns per cycle          ( +-  1.20% ) [28.58%]
-    16,788,010,717 cache-references                                              ( +-  1.20% ) [42.87%]
-     1,789,449,753 cache-misses              #   10.659 % of all cache refs      ( +-  1.51% ) [57.15%]
-
-     300.344267990 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02-f2clk-50.cnf.gz -t 3' (5 runs):
-
-   616,667,503,333 L1-dcache-loads                                               ( +-  1.23% ) [71.43%]
-    44,442,590,171 L1-dcache-load-misses     #    7.21% of all L1-dcache hits    ( +-  0.51% ) [71.43%]
-    18,837,050,956 LLC-loads                                                     ( +-  1.12% ) [57.15%]
-     3,611,562,033 LLC-load-misses           #   19.17% of all LL-cache hits     ( +-  1.76% ) [14.29%]
- 2,155,497,902,457 instructions              #    0.00  insns per cycle          ( +-  1.19% ) [28.58%]
-    22,268,061,448 cache-references                                              ( +-  1.17% ) [42.86%]
-     4,253,752,404 cache-misses              #   19.102 % of all cache refs      ( +-  1.72% ) [57.15%]
-
-     300.399295768 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02-f2clk-50.cnf.gz -t 4' (5 runs):
-
-   752,867,822,781 L1-dcache-loads                                               ( +-  0.90% ) [71.43%]
-    55,327,952,429 L1-dcache-load-misses     #    7.35% of all L1-dcache hits    ( +-  0.44% ) [71.43%]
-    24,566,164,317 LLC-loads                                                     ( +-  0.58% ) [57.14%]
-     6,038,643,198 LLC-load-misses           #   24.58% of all LL-cache hits     ( +-  1.08% ) [14.29%]
- 2,637,306,836,792 instructions              #    0.00  insns per cycle          ( +-  0.88% ) [28.58%]
-    29,319,910,084 cache-references                                              ( +-  0.56% ) [42.86%]
-     7,204,515,407 cache-misses              #   24.572 % of all cache refs      ( +-  1.11% ) [57.15%]
-
-     300.372937426 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02-f2clk-50.cnf.gz -t 5' (5 runs):
-
-   838,866,959,210 L1-dcache-loads                                               ( +-  0.39% ) [71.43%]
-    63,435,410,091 L1-dcache-load-misses     #    7.56% of all L1-dcache hits    ( +-  0.25% ) [71.43%]
-    28,915,049,463 LLC-loads                                                     ( +-  0.34% ) [57.15%]
-     8,795,038,642 LLC-load-misses           #   30.42% of all LL-cache hits     ( +-  0.52% ) [14.29%]
- 2,937,573,059,103 instructions              #    0.00  insns per cycle          ( +-  0.36% ) [28.58%]
-    34,554,472,330 cache-references                                              ( +-  0.24% ) [42.86%]
-    10,544,959,009 cache-misses              #   30.517 % of all cache refs      ( +-  0.57% ) [57.15%]
-
-     300.325513227 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/simon-s02-f2clk-50.cnf.gz -t 6' (5 runs):
-
-   953,213,934,200 L1-dcache-loads                                               ( +-  1.10% ) [71.44%]
-    73,061,875,457 L1-dcache-load-misses     #    7.66% of all L1-dcache hits    ( +-  0.44% ) [71.43%]
-    33,932,182,468 LLC-loads                                                     ( +-  0.55% ) [57.15%]
-    12,228,181,762 LLC-load-misses           #   36.04% of all LL-cache hits     ( +-  0.59% ) [14.29%]
- 3,330,886,922,919 instructions              #    0.00  insns per cycle          ( +-  1.11% ) [28.61%]
-    40,508,505,902 cache-references                                              ( +-  0.56% ) [42.89%]
-    14,667,824,200 cache-misses              #   36.209 % of all cache refs      ( +-  0.60% ) [57.17%]
-
-     304.629716832 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz -t 1' (5 runs):
-
-   117,850,765,527 L1-dcache-loads                                               ( +-  0.05% ) [71.44%]
-     5,982,433,376 L1-dcache-load-misses     #    5.08% of all L1-dcache hits    ( +-  0.05% ) [71.43%]
-     1,513,405,211 LLC-loads                                                     ( +-  0.10% ) [57.14%]
-       518,509,770 LLC-load-misses           #   34.26% of all LL-cache hits     ( +-  0.18% ) [14.30%]
-   407,996,330,286 instructions              #    0.00  insns per cycle          ( +-  0.10% ) [28.60%]
-     1,812,113,394 cache-references                                              ( +-  0.18% ) [42.89%]
-       697,600,675 cache-misses              #   38.497 % of all cache refs      ( +-  0.11% ) [57.17%]
-
-     108.200644521 seconds time elapsed                                          ( +-  0.06% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz -t 2' (5 runs):
-
-   705,934,724,957 L1-dcache-loads                                               ( +-  0.67% ) [71.43%]
-    36,939,746,668 L1-dcache-load-misses     #    5.23% of all L1-dcache hits    ( +-  2.43% ) [71.43%]
-     9,409,576,795 LLC-loads                                                     ( +-  3.17% ) [57.15%]
-     2,519,653,500 LLC-load-misses           #   26.78% of all LL-cache hits     ( +-  2.15% ) [14.29%]
- 2,389,290,891,072 instructions              #    0.00  insns per cycle          ( +-  0.61% ) [28.58%]
-    10,575,389,902 cache-references                                              ( +-  2.20% ) [42.86%]
-     3,195,381,442 cache-misses              #   30.215 % of all cache refs      ( +-  2.14% ) [57.15%]
-
-     300.394887880 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz -t 3' (5 runs):
-
-   995,853,181,427 L1-dcache-loads                                               ( +-  0.77% ) [71.43%]
-    52,344,743,497 L1-dcache-load-misses     #    5.26% of all L1-dcache hits    ( +-  1.03% ) [71.43%]
-    12,797,277,304 LLC-loads                                                     ( +-  2.50% ) [57.15%]
-     4,087,974,205 LLC-load-misses           #   31.94% of all LL-cache hits     ( +-  2.40% ) [14.29%]
- 3,367,949,056,740 instructions              #    0.00  insns per cycle          ( +-  0.77% ) [28.58%]
-    14,405,527,657 cache-references                                              ( +-  2.26% ) [42.86%]
-     5,209,528,075 cache-misses              #   36.163 % of all cache refs      ( +-  2.24% ) [57.15%]
-
-     300.459136975 seconds time elapsed                                          ( +-  0.00% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz -t 4' (5 runs):
-
- 1,188,605,199,771 L1-dcache-loads                                               ( +- 16.37% ) [71.43%]
-    64,406,470,406 L1-dcache-load-misses     #    5.42% of all L1-dcache hits    ( +- 16.80% ) [71.43%]
-    16,616,151,206 LLC-loads                                                     ( +- 18.08% ) [57.15%]
-     3,998,435,443 LLC-load-misses           #   24.06% of all LL-cache hits     ( +- 15.24% ) [14.29%]
- 4,012,330,642,502 instructions              #    0.00  insns per cycle          ( +- 16.31% ) [28.58%]
-    18,199,566,072 cache-references                                              ( +- 17.62% ) [42.86%]
-     5,106,888,423 cache-misses              #   28.060 % of all cache refs      ( +- 15.07% ) [57.14%]
-
-     261.334087958 seconds time elapsed                                          ( +- 14.96% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz -t 5' (5 runs):
-
- 1,418,936,086,821 L1-dcache-loads                                               ( +- 13.21% ) [71.43%]
-    76,795,812,080 L1-dcache-load-misses     #    5.41% of all L1-dcache hits    ( +- 13.48% ) [71.43%]
-    19,929,301,370 LLC-loads                                                     ( +- 13.68% ) [57.14%]
-     5,465,334,890 LLC-load-misses           #   27.42% of all LL-cache hits     ( +- 11.70% ) [14.29%]
- 4,795,050,765,695 instructions              #    0.00  insns per cycle          ( +- 13.15% ) [28.58%]
-    22,028,628,330 cache-references                                              ( +- 13.46% ) [42.86%]
-     6,996,180,173 cache-misses              #   31.759 % of all cache refs      ( +- 11.54% ) [57.15%]
-
-     268.185134079 seconds time elapsed                                          ( +- 12.01% )
-
-
- Performance counter stats for './shared-binaries-different-search -f ../satold/experimentos-plingeling-finales/benchmarks/velev-npe-1.0-9dlx-b71.cnf.gz -t 6' (5 runs):
-
-   737,273,117,326 L1-dcache-loads                                               ( +- 44.73% ) [71.40%]
-    39,787,857,938 L1-dcache-load-misses     #    5.40% of all L1-dcache hits    ( +- 45.21% ) [71.39%]
-    10,185,086,889 LLC-loads                                                     ( +- 41.77% ) [57.12%]
-     2,881,469,713 LLC-load-misses           #   28.29% of all LL-cache hits     ( +- 38.08% ) [14.31%]
- 2,495,827,837,849 instructions              #    0.00  insns per cycle          ( +- 44.48% ) [28.62%]
-    11,325,193,829 cache-references                                              ( +- 41.19% ) [42.89%]
-     3,739,840,143 cache-misses              #   33.022 % of all cache refs      ( +- 37.38% ) [57.13%]
-
-     124.268993049 seconds time elapsed                                          ( +- 38.08% )
+     304.770774124 seconds time elapsed                                          ( +-  0.00% )
 

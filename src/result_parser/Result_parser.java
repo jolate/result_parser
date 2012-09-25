@@ -21,7 +21,7 @@ public class Result_parser {
     public static String experiment = "";
     public static String[][] data;
     public static String[][] sd;
-    public static int number_of_files = 20;
+    public static int number_of_files = 10;
     public static int file_number = 0;
     public static boolean starting_table = true;
     public static String table = "cache%"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
@@ -153,7 +153,7 @@ public class Result_parser {
             FileWriter fstream = new FileWriter("out.csv");
             BufferedWriter out = new BufferedWriter(fstream);
             /* Output for csv */
-            /*
+            ///*
             for (int i = 0; i < 3 * (threads + 3); i++) {
                 for (int j = 0; j < 50; j++) {
                     if (data[i][j] != null) {
@@ -170,9 +170,9 @@ public class Result_parser {
                 }
                 out.write("\n");
             }
-            */
+            //*/
             /* Output for gnuplot*/
-            ///*
+            /*
             int file_output;
             out.write("#nr_of_threads\tLLC-miss%\terror\n");
             for(int i=0;i<number_of_files;i++){
@@ -186,7 +186,7 @@ public class Result_parser {
                     out.write("\n");
                 }
             }
-            //*/        
+            */        
             //Close the output stream
             out.close();
         } catch (Exception e) {//Catch exception if any
