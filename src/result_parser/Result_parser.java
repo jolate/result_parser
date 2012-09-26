@@ -51,10 +51,12 @@ public class Result_parser {
                         pos_start = pos_start - 1;
                     }
                     file = strLine.substring(pos_start, pos_end);
+                    //System.out.println("File: "+file);
                     pos_start = strLine.indexOf('\'') + 3;
                     pos_end = strLine.indexOf("-f") - 1;
                     String previous_experiment = String.copyValueOf(experiment.toCharArray());
                     experiment = strLine.substring(pos_start, pos_end);
+                    //System.out.println("Experiment: "+experiment);
                     if (!experiment.equals(previous_experiment) && starting_table != true) {
                         starting_table = true;
                         x = x + threads + 2;
@@ -158,6 +160,9 @@ public class Result_parser {
                 for (int j = 0; j < 50; j++) {
                     if (data[i][j] != null) {
                         out.write(data[i][j] + " ; ");
+                        if(i>1&&j>0){
+                            out.write(sd[i][j] + " ; ");
+                        }
                     }
                 }
                 out.write("\n");
