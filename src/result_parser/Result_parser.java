@@ -24,7 +24,7 @@ public class Result_parser {
     public static int number_of_files = 10;
     public static int file_number = 0;
     public static boolean starting_table = true;
-    public static String table = "cache%"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
+    public static String table = "time"; /*time for time charts, cache for total load misses tables, cache% for % of cache misses*/
 
     public static void main(String[] args) {
         try {
